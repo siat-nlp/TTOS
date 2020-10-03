@@ -1,0 +1,3381 @@
+1 i am looking for a restaurant that is moderately priced and serves cantonese food .	there are no restaurants that serve cantonese food in the moderate price range .
+2 how about chinese type of food ?	api_call chinese dontcare moderate
+3 jinling_noodle_bar R_address 11_peas_hill_city_centre
+4 jinling_noodle_bar R_area centre
+5 jinling_noodle_bar R_food chinese
+6 jinling_noodle_bar R_location 52.204453,0.118693
+7 jinling_noodle_bar R_phone 01223_566188
+8 jinling_noodle_bar R_pricerange moderate
+9 jinling_noodle_bar R_postcode cb23pp
+10 lan_hong_house R_address 12_norfolk_street_city_centre
+11 lan_hong_house R_area centre
+12 lan_hong_house R_food chinese
+13 lan_hong_house R_location 52.204609,0.137976
+14 lan_hong_house R_phone 01223_350420
+15 lan_hong_house R_pricerange moderate
+16 lan_hong_house R_postcode cb12lf
+17 golden_wok R_address 191_histon_road_chesterton
+18 golden_wok R_area north
+19 golden_wok R_food chinese
+20 golden_wok R_location 52.220757,0.111564
+21 golden_wok R_phone 01223_350688
+22 golden_wok R_pricerange moderate
+23 golden_wok R_postcode cb43hl
+24 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+25 shanghai_family_restaurant R_area centre
+26 shanghai_family_restaurant R_food chinese
+27 shanghai_family_restaurant R_location 52.206111,0.132969
+28 shanghai_family_restaurant R_phone 01223_301761
+29 shanghai_family_restaurant R_pricerange moderate
+30 shanghai_family_restaurant R_postcode cb11dg
+31 <SILENCE>	the golden_wok serves chinese food and is in the moderate price range . would you like their location ?
+32 their phone number please .	their phone number is 01223_350688 .
+33 what is the area ?	it is located in the north part of town
+34 thank you for your help . good bye .	goodbye .
+
+1 i want somewhere that serves traditional food .	there are no traditional restaurants in the city . can i help you with a different type of cuisine ?
+2 how abou asian oriental food	there are 5 restaurants meeting your criteria . what area and price range did you have in mind ?
+3 what is the address and phone number ?	api_call asian_oriental dontcare dontcare
+4 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+5 dojo_noodle_bar R_area centre
+6 dojo_noodle_bar R_food asian_oriental
+7 dojo_noodle_bar R_location 52.201423,0.116661
+8 dojo_noodle_bar R_phone 01223_363471
+9 dojo_noodle_bar R_pricerange cheap
+10 dojo_noodle_bar R_postcode cb21rq
+11 yippee_noodle_bar R_address 40428_king_street_city_centre
+12 yippee_noodle_bar R_area centre
+13 yippee_noodle_bar R_food asian_oriental
+14 yippee_noodle_bar R_location 52.207446,0.122788
+15 yippee_noodle_bar R_phone 01223_518111
+16 yippee_noodle_bar R_pricerange moderate
+17 yippee_noodle_bar R_postcode cb11lh
+18 j_restaurant R_address 86_regent_street_city_centre
+19 j_restaurant R_area centre
+20 j_restaurant R_food asian_oriental
+21 j_restaurant R_location 52.200187,0.126407
+22 j_restaurant R_phone 01223_307581
+23 j_restaurant R_pricerange cheap
+24 j_restaurant R_postcode cb21dp
+25 saigon_city R_address 169_high_street_chesterton_chesterton
+26 saigon_city R_area north
+27 saigon_city R_food asian_oriental
+28 saigon_city R_location 52.218164,0.143209
+29 saigon_city R_phone 01223_356555
+30 saigon_city R_pricerange expensive
+31 saigon_city R_postcode cb41nl
+32 kymmoy R_address 52_mill_road_city_centre
+33 kymmoy R_area centre
+34 kymmoy R_food asian_oriental
+35 kymmoy R_location 52.200422,0.135784
+36 kymmoy R_phone 01223_311911
+37 kymmoy R_pricerange expensive
+38 kymmoy R_postcode cb12as
+39 <SILENCE>	the dojo_noodle_bar serves asian_oriental food . they are located at 40210_millers_yard_city_centre and their phone number is 01223_363471 .
+40 thank you . good bye .	good bye
+
+1 i 'd like to find a moderately priced chinese restaurant .	api_call chinese dontcare moderate
+2 jinling_noodle_bar R_address 11_peas_hill_city_centre
+3 jinling_noodle_bar R_area centre
+4 jinling_noodle_bar R_food chinese
+5 jinling_noodle_bar R_location 52.204453,0.118693
+6 jinling_noodle_bar R_phone 01223_566188
+7 jinling_noodle_bar R_pricerange moderate
+8 jinling_noodle_bar R_postcode cb23pp
+9 lan_hong_house R_address 12_norfolk_street_city_centre
+10 lan_hong_house R_area centre
+11 lan_hong_house R_food chinese
+12 lan_hong_house R_location 52.204609,0.137976
+13 lan_hong_house R_phone 01223_350420
+14 lan_hong_house R_pricerange moderate
+15 lan_hong_house R_postcode cb12lf
+16 golden_wok R_address 191_histon_road_chesterton
+17 golden_wok R_area north
+18 golden_wok R_food chinese
+19 golden_wok R_location 52.220757,0.111564
+20 golden_wok R_phone 01223_350688
+21 golden_wok R_pricerange moderate
+22 golden_wok R_postcode cb43hl
+23 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+24 shanghai_family_restaurant R_area centre
+25 shanghai_family_restaurant R_food chinese
+26 shanghai_family_restaurant R_location 52.206111,0.132969
+27 shanghai_family_restaurant R_phone 01223_301761
+28 shanghai_family_restaurant R_pricerange moderate
+29 shanghai_family_restaurant R_postcode cb11dg
+30 <SILENCE>	golden_wok is a moderately priced chinese restaurant in north .
+31 can you give me the address , phone number , and area code ?	the golden_wok is at 191_histon_road_chesterton , post code cb43hl . the phone number is 01223_350688 .
+32 thank you very much for the address of the golden_wok !	you 're welcome . good bye !
+
+1 i need a restaurant	in what part of town ?
+2 east and expensive	there are several restaurant matches in this area . would you like british , indian , gastropub , or chinese ?
+3 address and phone number for the chinese restaurant	api_call chinese east expensive
+4 yu_garden R_address 529_newmarket_road_fen_ditton
+5 yu_garden R_area east
+6 yu_garden R_food chinese
+7 yu_garden R_location 52.212992,0.157569
+8 yu_garden R_phone 01223_248882
+9 yu_garden R_pricerange expensive
+10 yu_garden R_postcode cb58pa
+11 <SILENCE>	here you go , 01223_248882 , 529_newmarket_road_fen_ditton . anything else today ?
+12 no , this is it . thank you	wait . how about that british restaurant ? where is it located ?
+13 is there a welsh restaurant in the north part of town ?	i am sorry no welsh restaurants in the north part of town .
+14 thank you , good bye .	thank you good bye
+
+1 i 'd like to find an east side restaurant that is expensive .	there are five restaurants matching your request . what kind of food would you like ?
+2 chinese food sound good .	api_call chinese east expensive
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden serves chinese food , is in the east part of town and is in the expensive price range . would you like their location ?
+11 what is their address and postcode ?	yu_garden chinese east expensive 01223_248882 529_newmarket_road_fen_ditton cb58pa
+12 thank you goodbye .	thank you and good bye
+
+1 i want some welsh food . moderately priced please .	i 'm sorry i do not find any restaurants meeting those requirements
+2 i 'd like a chinese restaurant instead then .	there are several chinese restaurants in the moderate price range . would you prefer the north or centre of town ?
+3 i do n't care .	api_call chinese dontcare moderate
+4 jinling_noodle_bar R_address 11_peas_hill_city_centre
+5 jinling_noodle_bar R_area centre
+6 jinling_noodle_bar R_food chinese
+7 jinling_noodle_bar R_location 52.204453,0.118693
+8 jinling_noodle_bar R_phone 01223_566188
+9 jinling_noodle_bar R_pricerange moderate
+10 jinling_noodle_bar R_postcode cb23pp
+11 lan_hong_house R_address 12_norfolk_street_city_centre
+12 lan_hong_house R_area centre
+13 lan_hong_house R_food chinese
+14 lan_hong_house R_location 52.204609,0.137976
+15 lan_hong_house R_phone 01223_350420
+16 lan_hong_house R_pricerange moderate
+17 lan_hong_house R_postcode cb12lf
+18 golden_wok R_address 191_histon_road_chesterton
+19 golden_wok R_area north
+20 golden_wok R_food chinese
+21 golden_wok R_location 52.220757,0.111564
+22 golden_wok R_phone 01223_350688
+23 golden_wok R_pricerange moderate
+24 golden_wok R_postcode cb43hl
+25 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+26 shanghai_family_restaurant R_area centre
+27 shanghai_family_restaurant R_food chinese
+28 shanghai_family_restaurant R_location 52.206111,0.132969
+29 shanghai_family_restaurant R_phone 01223_301761
+30 shanghai_family_restaurant R_pricerange moderate
+31 shanghai_family_restaurant R_postcode cb11dg
+32 <SILENCE>	golden_wok is located in the north part of town . would you like their address and phone number ?
+33 i would like their phone number , please .	golden_wok 's phone number is 01223_350688
+34 is there any thing else i can help you with ?	i appreciate the offer , but it is my job to help you . is there anything else ?
+35 thank you , goodbye .	you 're welcome and good bye .
+
+1 hey , could you tell me if there are any panasian restaurants in the east side of town ?	i 'm not finding any restaurants matching that description . would you like to try searching a different area ?
+2 no	ok. would you like me to check for a different type of cuisine ?
+3 are there any chinese restaurants on the east side of town ? if so , what is the address , phone number and post code ?	api_call chinese east dontcare
+4 yu_garden R_address 529_newmarket_road_fen_ditton
+5 yu_garden R_area east
+6 yu_garden R_food chinese
+7 yu_garden R_location 52.212992,0.157569
+8 yu_garden R_phone 01223_248882
+9 yu_garden R_pricerange expensive
+10 yu_garden R_postcode cb58pa
+11 <SILENCE>	yu_garden is located at 529_newmarket_road_fen_ditton . its phone number is 01223_248882 and the postcode is cb58pa . is there anything else i can help you with ?
+12 thank you goodbye .	thank you and good bye to you as well .
+
+1 i need a restaurant in the east part of town that serves world food .	i found no matching records for your requests . do you want to try something else ?
+2 how about chinese food ?	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is a great chinese restaraunt on the east side of town . should i get you their phone number ?
+11 yes , please , and the address and postcode also .	the address is 529_newmarket_road_fen_ditton , the postcode is cb58pa , and the phone number is 01223_248882 .
+12 thank you , goodbye .	goodbye , and thank you for using the cambridge restaurant system .
+
+1 hi , i 'm looking for a persian restaurnt in the north part of the city .	unfortunately there are no persian restaurants in the city . would you like to try a different cuisine ?
+2 how about asian oriental food ?	api_call asian_oriental north dontcare
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 <SILENCE>	saigon_city serves asian_oriental food , is in the north part of town and in the expensive price range .
+11 could you tell me the address and phone number please ?	of course . their phone number is 01223_356555 and they are located at 169_high_street_chesterton_chesterton . is there anything else i can help you with ?
+12 that 's it . thank you , goodbye	thank you for using the cambridge restaurant system , goodbye .
+
+1 do you have any restaurants that serve caribbean food ?	there are no caribbean restaurants . would you like something else ?
+2 what about a restaurant that serves chinese food ? what is their phone number ?	api_call chinese dontcare dontcare
+3 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+4 the_good_luck_chinese_food_takeaway R_area south
+5 the_good_luck_chinese_food_takeaway R_food chinese
+6 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+7 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+8 the_good_luck_chinese_food_takeaway R_pricerange expensive
+9 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+10 yu_garden R_address 529_newmarket_road_fen_ditton
+11 yu_garden R_area east
+12 yu_garden R_food chinese
+13 yu_garden R_location 52.212992,0.157569
+14 yu_garden R_phone 01223_248882
+15 yu_garden R_pricerange expensive
+16 yu_garden R_postcode cb58pa
+17 charlie_chan R_address regent_street_city_centre
+18 charlie_chan R_area centre
+19 charlie_chan R_food chinese
+20 charlie_chan R_location 52.201743,0.124843
+21 charlie_chan R_phone 01223_361763
+22 charlie_chan R_pricerange cheap
+23 charlie_chan R_postcode cb21db
+24 jinling_noodle_bar R_address 11_peas_hill_city_centre
+25 jinling_noodle_bar R_area centre
+26 jinling_noodle_bar R_food chinese
+27 jinling_noodle_bar R_location 52.204453,0.118693
+28 jinling_noodle_bar R_phone 01223_566188
+29 jinling_noodle_bar R_pricerange moderate
+30 jinling_noodle_bar R_postcode cb23pp
+31 rice_house R_address 88_mill_road_city_centre
+32 rice_house R_area centre
+33 rice_house R_food chinese
+34 rice_house R_location 52.199332,0.138395
+35 rice_house R_phone 01223_367755
+36 rice_house R_pricerange cheap
+37 rice_house R_postcode cb12bd
+38 ugly_duckling R_address 12_st._johns_street_city_centre
+39 ugly_duckling R_area centre
+40 ugly_duckling R_food chinese
+41 ugly_duckling R_location 52.208055,0.118397
+42 ugly_duckling R_pricerange expensive
+43 ugly_duckling R_postcode cb21tw
+44 lan_hong_house R_address 12_norfolk_street_city_centre
+45 lan_hong_house R_area centre
+46 lan_hong_house R_food chinese
+47 lan_hong_house R_location 52.204609,0.137976
+48 lan_hong_house R_phone 01223_350420
+49 lan_hong_house R_pricerange moderate
+50 lan_hong_house R_postcode cb12lf
+51 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+52 the_lucky_star R_area south
+53 the_lucky_star R_food chinese
+54 the_lucky_star R_location 52.190176,0.13699
+55 the_lucky_star R_phone 01223_244277
+56 the_lucky_star R_pricerange cheap
+57 the_lucky_star R_postcode cb17dy
+58 golden_house R_address 12_lensfield_road_city_centre
+59 golden_house R_area centre
+60 golden_house R_food chinese
+61 golden_house R_location 52.198696,0.12578
+62 golden_house R_phone 01842_753771
+63 golden_house R_pricerange cheap
+64 golden_house R_postcode cb21eg
+65 hakka R_address milton_road_chesterton
+66 hakka R_area north
+67 hakka R_food chinese
+68 hakka R_location 52.215311,0.12593
+69 hakka R_phone 01223_568988
+70 hakka R_pricerange expensive
+71 hakka R_postcode cb41jy
+72 golden_wok R_address 191_histon_road_chesterton
+73 golden_wok R_area north
+74 golden_wok R_food chinese
+75 golden_wok R_location 52.220757,0.111564
+76 golden_wok R_phone 01223_350688
+77 golden_wok R_pricerange moderate
+78 golden_wok R_postcode cb43hl
+79 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+80 shanghai_family_restaurant R_area centre
+81 shanghai_family_restaurant R_food chinese
+82 shanghai_family_restaurant R_location 52.206111,0.132969
+83 shanghai_family_restaurant R_phone 01223_301761
+84 shanghai_family_restaurant R_pricerange moderate
+85 shanghai_family_restaurant R_postcode cb11dg
+86 peking_restaurant R_address 10_homerton_street_city_centre
+87 peking_restaurant R_area south
+88 peking_restaurant R_food chinese
+89 peking_restaurant R_location 52.189484,0.135465
+90 peking_restaurant R_phone 01223_354755
+91 peking_restaurant R_pricerange expensive
+92 peking_restaurant R_postcode cb28nx
+93 the_hotpot R_address 66_chesterton_road_chesterton
+94 the_hotpot R_area north
+95 the_hotpot R_food chinese
+96 the_hotpot R_location 52.214531,0.127298
+97 the_hotpot R_phone 01223_366552
+98 the_hotpot R_pricerange expensive
+99 the_hotpot R_postcode cb41ep
+100 tang_chinese R_address napier_street_city_centre
+101 tang_chinese R_area centre
+102 tang_chinese R_food chinese
+103 tang_chinese R_location 52.207702,0.133982
+104 tang_chinese R_phone 01223_357187
+105 tang_chinese R_pricerange expensive
+106 tang_chinese R_postcode cb11hr
+107 hk_fusion R_address 21_burleigh_street_city_centre
+108 hk_fusion R_area centre
+109 hk_fusion R_food chinese
+110 hk_fusion R_location 52.206111,0.132969
+111 hk_fusion R_phone 01223_355909
+112 hk_fusion R_pricerange expensive
+113 hk_fusion R_postcode cb11dg
+114 sesame_restaurant_and_bar R_address 17_hills_road_city_centre
+115 sesame_restaurant_and_bar R_area centre
+116 sesame_restaurant_and_bar R_food chinese
+117 sesame_restaurant_and_bar R_location 52.197154,0.129511
+118 sesame_restaurant_and_bar R_phone 01223_358899
+119 sesame_restaurant_and_bar R_pricerange expensive
+120 sesame_restaurant_and_bar R_postcode cb21nw
+121 <SILENCE>	there are many chinese restaurants to choose from . do you have a preferred area of town ?
+122 no , it does n't matter	let me provide you with a couple options , charlie_chan- phone 01223_361763 or golden_house - phone 01842_753771
+123 thank you , goodbye	thank you for calling . goodbye .
+
+1 i 'd like to find panasian food for cheap please .	there are no restaurants matching your requests . would you like another restaurant ?
+2 how about asian oriental food ? i would like a phone number and address for any asian restaurant you find .	api_call asian_oriental dontcare cheap
+3 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+4 dojo_noodle_bar R_area centre
+5 dojo_noodle_bar R_food asian_oriental
+6 dojo_noodle_bar R_location 52.201423,0.116661
+7 dojo_noodle_bar R_phone 01223_363471
+8 dojo_noodle_bar R_pricerange cheap
+9 dojo_noodle_bar R_postcode cb21rq
+10 j_restaurant R_address 86_regent_street_city_centre
+11 j_restaurant R_area centre
+12 j_restaurant R_food asian_oriental
+13 j_restaurant R_location 52.200187,0.126407
+14 j_restaurant R_phone 01223_307581
+15 j_restaurant R_pricerange cheap
+16 j_restaurant R_postcode cb21dp
+17 <SILENCE>	dojo_noodle_bar serves asian_oriental . their phone number is 01223_363471 and their address is 40210_millers_yard_city_centre . is there anything else i can help you with ?
+18 and that 's a cheap restaurant ?	yes , dojo_noodle_bar is a restaurant in the cheap price range .
+19 is there anything else ?	no , enjoy your meal !
+20 thanks .	thank you , goodbye !
+
+1 i 'd like to find an expensive restaurant that serves venetian food .	there is not matching places that fits your request . can i help you with something else ?
+2 are there any asian oriental restaurants in that price range ?	api_call asian_oriental dontcare expensive
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 kymmoy R_address 52_mill_road_city_centre
+11 kymmoy R_area centre
+12 kymmoy R_food asian_oriental
+13 kymmoy R_location 52.200422,0.135784
+14 kymmoy R_phone 01223_311911
+15 kymmoy R_pricerange expensive
+16 kymmoy R_postcode cb12as
+17 <SILENCE>	yes . kymmoy is an expensive restaurant serving asian_oriental food in the centre part of town .
+18 thank you . may i have their phone number ?	their number is 01223_311911 . will that be all today ?
+19 yes , thank you .	thank you good bye
+
+1 i would like a restaurant in the north part of town that serves canapes food .	there are no records matching your criteria . would you like a different type of food or area ?
+2 is there a asian oriental type food available ?	api_call asian_oriental north dontcare
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 <SILENCE>	saigon_city serves asian_oriental food and is in the north part of town . would you like the address and phone number ?
+11 of course !	the address is 169_high_street_chesterton_chesterton and the phone number is 01223_356555 .
+12 thank you goodbye .	your welcome . thanks for calling
+
+1 i would like a moderately priced restaurant in the north part of town	there are two moderately priced restaurants in the north part of town . one chinese and one indian . please specify the desired cuisine type .
+2 can i have the phone number of the chinese place please ?	api_call chinese north moderate
+3 golden_wok R_address 191_histon_road_chesterton
+4 golden_wok R_area north
+5 golden_wok R_food chinese
+6 golden_wok R_location 52.220757,0.111564
+7 golden_wok R_phone 01223_350688
+8 golden_wok R_pricerange moderate
+9 golden_wok R_postcode cb43hl
+10 <SILENCE>	golden_wok is located in the north side of town , serves chinese food and is in the moderate price range . their phone number is 01223_350688 .
+11 ok , thank you	goodbye .
+
+1 i am looking for a cantonese restaurant in the north part of town .	what price range are you looking for ?
+2 i do n't care .	unfortunately , there are no cantonese restaurants in the north part of town .
+3 okay then , how about a restaurant that serves asian oriental type of food in the north part of town then ?	api_call asian_oriental north dontcare
+4 saigon_city R_address 169_high_street_chesterton_chesterton
+5 saigon_city R_area north
+6 saigon_city R_food asian_oriental
+7 saigon_city R_location 52.218164,0.143209
+8 saigon_city R_phone 01223_356555
+9 saigon_city R_pricerange expensive
+10 saigon_city R_postcode cb41nl
+11 <SILENCE>	saigon_city serves asian_oriental food and is located in the north part of town . would you like their location ?
+12 what is the address and phone number ?	the address for saigon_city is 169_high_street_chesterton_chesterton and the phone number is 01223_356555 .
+13 thank you for the information . bye now	thank you .
+
+1 hello , i am looking for a restaurant that serves moroccan food .	i 'm sorry , there are no restaurants serving moroccan food . would you like something else ?
+2 can i have the asian oriental type of food then ?	api_call asian_oriental dontcare dontcare
+3 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+4 dojo_noodle_bar R_area centre
+5 dojo_noodle_bar R_food asian_oriental
+6 dojo_noodle_bar R_location 52.201423,0.116661
+7 dojo_noodle_bar R_phone 01223_363471
+8 dojo_noodle_bar R_pricerange cheap
+9 dojo_noodle_bar R_postcode cb21rq
+10 yippee_noodle_bar R_address 40428_king_street_city_centre
+11 yippee_noodle_bar R_area centre
+12 yippee_noodle_bar R_food asian_oriental
+13 yippee_noodle_bar R_location 52.207446,0.122788
+14 yippee_noodle_bar R_phone 01223_518111
+15 yippee_noodle_bar R_pricerange moderate
+16 yippee_noodle_bar R_postcode cb11lh
+17 j_restaurant R_address 86_regent_street_city_centre
+18 j_restaurant R_area centre
+19 j_restaurant R_food asian_oriental
+20 j_restaurant R_location 52.200187,0.126407
+21 j_restaurant R_phone 01223_307581
+22 j_restaurant R_pricerange cheap
+23 j_restaurant R_postcode cb21dp
+24 saigon_city R_address 169_high_street_chesterton_chesterton
+25 saigon_city R_area north
+26 saigon_city R_food asian_oriental
+27 saigon_city R_location 52.218164,0.143209
+28 saigon_city R_phone 01223_356555
+29 saigon_city R_pricerange expensive
+30 saigon_city R_postcode cb41nl
+31 kymmoy R_address 52_mill_road_city_centre
+32 kymmoy R_area centre
+33 kymmoy R_food asian_oriental
+34 kymmoy R_location 52.200422,0.135784
+35 kymmoy R_phone 01223_311911
+36 kymmoy R_pricerange expensive
+37 kymmoy R_postcode cb12as
+38 <SILENCE>	dojo_noodle_bar serves asian_oriental food
+39 do you have an address ?	dojo_noodle_bar is located at 40210_millers_yard_city_centre
+40 may i have the postcode please ?	dojo_noodle_bar 's postcode is cb21rq . is there anything else i can help you with today ?
+41 thank you , goodbye .	thank you , goodbye .
+
+1 i want the creative food , sir . oh and this needs to be in the south as well .	what is the price range you would prefer today ?
+2 any price range will be fine .	i 'm sorry , but our system does not show any matches for your inquiry .
+3 how about chinese food ?	api_call chinese south dontcare
+4 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+5 the_good_luck_chinese_food_takeaway R_area south
+6 the_good_luck_chinese_food_takeaway R_food chinese
+7 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+8 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+9 the_good_luck_chinese_food_takeaway R_pricerange expensive
+10 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+11 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+12 the_lucky_star R_area south
+13 the_lucky_star R_food chinese
+14 the_lucky_star R_location 52.190176,0.13699
+15 the_lucky_star R_phone 01223_244277
+16 the_lucky_star R_pricerange cheap
+17 the_lucky_star R_postcode cb17dy
+18 peking_restaurant R_address 10_homerton_street_city_centre
+19 peking_restaurant R_area south
+20 peking_restaurant R_food chinese
+21 peking_restaurant R_location 52.189484,0.135465
+22 peking_restaurant R_phone 01223_354755
+23 peking_restaurant R_pricerange expensive
+24 peking_restaurant R_postcode cb28nx
+25 <SILENCE>	there 's a restaurant that serves delicious chinese food called peking_restaurant in the expensive range . would you like their address and phone number ?
+26 yes please	okay , peking_restaurant 's number is 01223_354755 and they are located at 10_homerton_street_city_centre . is there anything else i can do for you ?
+27 no , thank you and good bye	you 're welcome ! goodbye !
+
+1 a cheap restaurant in the south part of town	we have two restaurants that meet your criteria , are you more interested in chinese of portuguese food ?
+2 chinese , what is the number ?	api_call chinese south cheap
+3 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+4 the_lucky_star R_area south
+5 the_lucky_star R_food chinese
+6 the_lucky_star R_location 52.190176,0.13699
+7 the_lucky_star R_phone 01223_244277
+8 the_lucky_star R_pricerange cheap
+9 the_lucky_star R_postcode cb17dy
+10 <SILENCE>	the_lucky_star is a chinese restaurant in the south and is in the cheap price range . their phone number is 01223_244277 .
+11 what is their address ?	cambridge_leisure_park_clifton_way cherry hinton
+12 what is the postcode please ?	their postcode is cb21uj .
+13 thank you very much .	thank you , goodbye
+
+1 i want to find a restaurant in the north part of town that serves christmas food .	there are no restaurants that seve christmas food .
+2 how about asian oriental food ?	api_call asian_oriental north dontcare
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 <SILENCE>	saigon_city serves asian_oriental food as is in the north part of town .
+11 that sounds like it will work . may i have the address and phone number , please ?	saigon_city has an address of 169 high street chesterton , their phone number is 01223_356555 .
+12 thank you , goodbye .	thank you for using the cambridge restaurant phone system . enjoy your meal !
+
+1 hello , i am looking for a hungarian restaurant on the east side of town .	there are no restaurants matching your request . would you like a different restaurant ?
+2 yes , i 'd like a chinese restaurant in the east part of town .	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is a chinese restaurant in the east of town .
+11 please give me yu_garden 's address , phone number , and postcode .	01223_248882 , and the postcode is c.b 5 , 8 p a
+12 thank you good bye .	you 're welcome , goodbye .
+
+1 i am looking for an expensive restaurant in the east part of town .	i have found several . would you like british , indian , gastropub , or chinese ?
+2 is there anything else ?	there are no other types of expensive restaurants in the east , would you like to try another area ?
+3 no , that 's okay . what chinese restaurants are there on the east side ?	api_call chinese east expensive
+4 yu_garden R_address 529_newmarket_road_fen_ditton
+5 yu_garden R_area east
+6 yu_garden R_food chinese
+7 yu_garden R_location 52.212992,0.157569
+8 yu_garden R_phone 01223_248882
+9 yu_garden R_pricerange expensive
+10 yu_garden R_postcode cb58pa
+11 <SILENCE>	yu_garden is on the east side , would you like the phone number ?
+12 is there another chinese restaurant in the east ?	yu_garden is the only chinese restaurant on the east side of town in the expensive price range .
+13 what is the phone number for yu_garden ?	the phone number for yu_garden is 01223_248882 . may i help you with anything else ?
+14 no , i think that 's it . thank you for your help .	you are very welcome . goodbye .
+
+1 i want a restaurant in the north part of town and serves chinese food . what is the phone number ?	api_call chinese north dontcare
+2 hakka R_address milton_road_chesterton
+3 hakka R_area north
+4 hakka R_food chinese
+5 hakka R_location 52.215311,0.12593
+6 hakka R_phone 01223_568988
+7 hakka R_pricerange expensive
+8 hakka R_postcode cb41jy
+9 golden_wok R_address 191_histon_road_chesterton
+10 golden_wok R_area north
+11 golden_wok R_food chinese
+12 golden_wok R_location 52.220757,0.111564
+13 golden_wok R_phone 01223_350688
+14 golden_wok R_pricerange moderate
+15 golden_wok R_postcode cb43hl
+16 the_hotpot R_address 66_chesterton_road_chesterton
+17 the_hotpot R_area north
+18 the_hotpot R_food chinese
+19 the_hotpot R_location 52.214531,0.127298
+20 the_hotpot R_phone 01223_366552
+21 the_hotpot R_pricerange expensive
+22 the_hotpot R_postcode cb41ep
+23 <SILENCE>	there are three chinese restaurants . would you like the phone number for all three ?
+24 what is the phone number ?	golden_wok is 01223350688 , hakka is 01223568988 and the_hotpot is 01223366552. is there anything else i can help you with ?
+25 what is the food type of that restaurant ?	they serve chinese food .
+26 no , that 's all i need . thank you and goodbye	have a nice day !
+
+1 hello there ! i am looking for a restaurant that specializes in swedish food .	what area would you like ?
+2 any	there is no swedish restaurant . would you like to change your query ?
+3 how about asian oriental ?	api_call asian_oriental dontcare dontcare
+4 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+5 dojo_noodle_bar R_area centre
+6 dojo_noodle_bar R_food asian_oriental
+7 dojo_noodle_bar R_location 52.201423,0.116661
+8 dojo_noodle_bar R_phone 01223_363471
+9 dojo_noodle_bar R_pricerange cheap
+10 dojo_noodle_bar R_postcode cb21rq
+11 yippee_noodle_bar R_address 40428_king_street_city_centre
+12 yippee_noodle_bar R_area centre
+13 yippee_noodle_bar R_food asian_oriental
+14 yippee_noodle_bar R_location 52.207446,0.122788
+15 yippee_noodle_bar R_phone 01223_518111
+16 yippee_noodle_bar R_pricerange moderate
+17 yippee_noodle_bar R_postcode cb11lh
+18 j_restaurant R_address 86_regent_street_city_centre
+19 j_restaurant R_area centre
+20 j_restaurant R_food asian_oriental
+21 j_restaurant R_location 52.200187,0.126407
+22 j_restaurant R_phone 01223_307581
+23 j_restaurant R_pricerange cheap
+24 j_restaurant R_postcode cb21dp
+25 saigon_city R_address 169_high_street_chesterton_chesterton
+26 saigon_city R_area north
+27 saigon_city R_food asian_oriental
+28 saigon_city R_location 52.218164,0.143209
+29 saigon_city R_phone 01223_356555
+30 saigon_city R_pricerange expensive
+31 saigon_city R_postcode cb41nl
+32 kymmoy R_address 52_mill_road_city_centre
+33 kymmoy R_area centre
+34 kymmoy R_food asian_oriental
+35 kymmoy R_location 52.200422,0.135784
+36 kymmoy R_phone 01223_311911
+37 kymmoy R_pricerange expensive
+38 kymmoy R_postcode cb12as
+39 <SILENCE>	charlie_chan has cheap chinese food located on regent_street_city_centre , phone 01223_361763
+40 do you have any moderately priced listings for asian oriental ?	there is the yippee_noodle_bar . would you like the address ?
+41 yes please and the phone number as well . thank you .	the address is 40428_king_street_city_centre and the phone number is 01223_518111 .
+42 excellent . that is all i needed . have a good evening and thank you !	thank you for using our system . goodbye !
+
+1 hi . can you please help me find a restaurant that serves food from singapore ? i 'd like it to be on the east side of town if possible .	there are no restaurants serving singaporean food on the east part of town .
+2 can you help me find some chinese food then ?	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is located on the east part of town . would you like the telephone and address ?
+11 what is the address , phone number , and postcode ?	yu_garden is located at 529_newmarket_road_fen_ditton , cb58pa , and the number is 01223_248882 .
+12 thank you , goodbye .	thank you for using the cambridge restaurant system . goodbye .
+
+1 i 'd like a kosher restaurant that 's in the moderate price range .	i 'm sorry , there is not a kosher restaurant in the moderate price range . would you like to try something else ?
+2 how about asian oriental food ?	api_call asian_oriental dontcare moderate
+3 yippee_noodle_bar R_address 40428_king_street_city_centre
+4 yippee_noodle_bar R_area centre
+5 yippee_noodle_bar R_food asian_oriental
+6 yippee_noodle_bar R_location 52.207446,0.122788
+7 yippee_noodle_bar R_phone 01223_518111
+8 yippee_noodle_bar R_pricerange moderate
+9 yippee_noodle_bar R_postcode cb11lh
+10 <SILENCE>	yippee_noodle_bar is a moderately priced restaurant serving asian_oriental food .
+11 what is the address and phone number ?	yippee_noodle_bar 's phone number is 01223_518111 . their address is 40428_king_street_city_centre
+12 thank you , goodbye	you 're welcome .
+
+1 i 'm looking for a restaurant on the north side of town that serves tuscan food .	i 'm sorry there are no locations serving tuscan food on the north side town .
+2 how about chinese type of food ?	yes , there are 3 chinese restaurants in the north . what price range would you prefer ?
+3 price does n't matter . suggest one please .	api_call chinese north dontcare
+4 hakka R_address milton_road_chesterton
+5 hakka R_area north
+6 hakka R_food chinese
+7 hakka R_location 52.215311,0.12593
+8 hakka R_phone 01223_568988
+9 hakka R_pricerange expensive
+10 hakka R_postcode cb41jy
+11 golden_wok R_address 191_histon_road_chesterton
+12 golden_wok R_area north
+13 golden_wok R_food chinese
+14 golden_wok R_location 52.220757,0.111564
+15 golden_wok R_phone 01223_350688
+16 golden_wok R_pricerange moderate
+17 golden_wok R_postcode cb43hl
+18 the_hotpot R_address 66_chesterton_road_chesterton
+19 the_hotpot R_area north
+20 the_hotpot R_food chinese
+21 the_hotpot R_location 52.214531,0.127298
+22 the_hotpot R_phone 01223_366552
+23 the_hotpot R_pricerange expensive
+24 the_hotpot R_postcode cb41ep
+25 <SILENCE>	golden_wok serves chinese food and is located in the north part of town .
+26 thank you , goodbye !	thank you for choosing our system . good bye
+
+1 can you recommend me a moderate priced restaurant in the north part of town ?	i found two restaurants in the moderate price range in the north part of town . would you prefer chinese or indian food ?
+2 can i have the address of the chinese restaurant ?	api_call chinese north moderate
+3 golden_wok R_address 191_histon_road_chesterton
+4 golden_wok R_area north
+5 golden_wok R_food chinese
+6 golden_wok R_location 52.220757,0.111564
+7 golden_wok R_phone 01223_350688
+8 golden_wok R_pricerange moderate
+9 golden_wok R_postcode cb43hl
+10 <SILENCE>	the golden_wok is a chinese restaurant in the north part of town . the address is 191_histon_road_chesterton .
+11 ok thank you good bye	goodbye
+
+1 hello , i am looking for a restaurant on the south side of town that serves christmas food .	i 'm sorry , there are n't any restaurants serving christmas food . would you like something else instead ?
+2 how about chinese ?	there are three results that serve chinese on the south area of town . do you have a price range preference ?
+3 i do n't care about price .	api_call chinese south dontcare
+4 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+5 the_good_luck_chinese_food_takeaway R_area south
+6 the_good_luck_chinese_food_takeaway R_food chinese
+7 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+8 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+9 the_good_luck_chinese_food_takeaway R_pricerange expensive
+10 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+11 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+12 the_lucky_star R_area south
+13 the_lucky_star R_food chinese
+14 the_lucky_star R_location 52.190176,0.13699
+15 the_lucky_star R_phone 01223_244277
+16 the_lucky_star R_pricerange cheap
+17 the_lucky_star R_postcode cb17dy
+18 peking_restaurant R_address 10_homerton_street_city_centre
+19 peking_restaurant R_area south
+20 peking_restaurant R_food chinese
+21 peking_restaurant R_location 52.189484,0.135465
+22 peking_restaurant R_phone 01223_354755
+23 peking_restaurant R_pricerange expensive
+24 peking_restaurant R_postcode cb28nx
+25 <SILENCE>	peking_restaurant is an expensive chinese restaurant in the south part of town . would you like their information ?
+26 yes , i would like their address .	the address for peking_restaurant is 10_homerton_street_city_centre . is there any other information you require ?
+27 what is the food type of that restaurant ?	they serve chinese food .
+28 thank you goodbye .	you 're welcome . good bye .
+
+1 can i get a cantonese restaurant ?	i 'm sorry there are no cantonese restaurants . would you like something else ?
+2 how about chinese ?	there are several chinese restaurants in town . would you prefer something in the cheap , moderate or expensive price range ?
+3 i would like the phone number for a moderately priced chinese restaurant .	api_call chinese dontcare moderate
+4 jinling_noodle_bar R_address 11_peas_hill_city_centre
+5 jinling_noodle_bar R_area centre
+6 jinling_noodle_bar R_food chinese
+7 jinling_noodle_bar R_location 52.204453,0.118693
+8 jinling_noodle_bar R_phone 01223_566188
+9 jinling_noodle_bar R_pricerange moderate
+10 jinling_noodle_bar R_postcode cb23pp
+11 lan_hong_house R_address 12_norfolk_street_city_centre
+12 lan_hong_house R_area centre
+13 lan_hong_house R_food chinese
+14 lan_hong_house R_location 52.204609,0.137976
+15 lan_hong_house R_phone 01223_350420
+16 lan_hong_house R_pricerange moderate
+17 lan_hong_house R_postcode cb12lf
+18 golden_wok R_address 191_histon_road_chesterton
+19 golden_wok R_area north
+20 golden_wok R_food chinese
+21 golden_wok R_location 52.220757,0.111564
+22 golden_wok R_phone 01223_350688
+23 golden_wok R_pricerange moderate
+24 golden_wok R_postcode cb43hl
+25 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+26 shanghai_family_restaurant R_area centre
+27 shanghai_family_restaurant R_food chinese
+28 shanghai_family_restaurant R_location 52.206111,0.132969
+29 shanghai_family_restaurant R_phone 01223_301761
+30 shanghai_family_restaurant R_pricerange moderate
+31 shanghai_family_restaurant R_postcode cb11dg
+32 <SILENCE>	how about shanghai_family_restaurant ? its number is 01223_301761 .
+33 thank you goodbye .	you 're very welcome . have a good evening .
+
+1 i would like an expensive restaurant that serves vegetarian food	i 'm sorry , there are no expensive vegetarian restaurants in town . can i help you find anything else ?
+2 could you find me an asian oriental restaurant instead ?	api_call asian_oriental dontcare expensive
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 kymmoy R_address 52_mill_road_city_centre
+11 kymmoy R_area centre
+12 kymmoy R_food asian_oriental
+13 kymmoy R_location 52.200422,0.135784
+14 kymmoy R_phone 01223_311911
+15 kymmoy R_pricerange expensive
+16 kymmoy R_postcode cb12as
+17 <SILENCE>	saigon_city is an expinsive asian_oriental restraunt in the north area of town .
+18 what is the phone number and area ?	the phone number for saigon_city is 01223_356555 and is located in the north part of the town .
+19 thank you . goodbye !	goodbye
+
+1 i would like a restaurant in the south part of town that serves jamaican food	there are no restuarants on the west side of town the serves jamaican food . is there another type of food you woluld like ?
+2 how about chinese food ?	api_call chinese south dontcare
+3 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+4 the_good_luck_chinese_food_takeaway R_area south
+5 the_good_luck_chinese_food_takeaway R_food chinese
+6 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+7 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+8 the_good_luck_chinese_food_takeaway R_pricerange expensive
+9 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+10 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+11 the_lucky_star R_area south
+12 the_lucky_star R_food chinese
+13 the_lucky_star R_location 52.190176,0.13699
+14 the_lucky_star R_phone 01223_244277
+15 the_lucky_star R_pricerange cheap
+16 the_lucky_star R_postcode cb17dy
+17 peking_restaurant R_address 10_homerton_street_city_centre
+18 peking_restaurant R_area south
+19 peking_restaurant R_food chinese
+20 peking_restaurant R_location 52.189484,0.135465
+21 peking_restaurant R_phone 01223_354755
+22 peking_restaurant R_pricerange expensive
+23 peking_restaurant R_postcode cb28nx
+24 <SILENCE>	peking_restaurant serves chinese food , it is in the expensive price range , and it is in the south part of town . would you like the address and phone number ?
+25 just their address , please .	the peking_restaurant is at 10_homerton_street_city_centre . can i be of further help ?
+26 no thank you . goodbye .	thank you , goodbye .
+
+1 is there any expensive restaurants in town serving australian food ?	i 'm sorry , there are no australian restaurants . would you like another type of food ?
+2 how about asian oriental food ?	api_call asian_oriental dontcare expensive
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 kymmoy R_address 52_mill_road_city_centre
+11 kymmoy R_area centre
+12 kymmoy R_food asian_oriental
+13 kymmoy R_location 52.200422,0.135784
+14 kymmoy R_phone 01223_311911
+15 kymmoy R_pricerange expensive
+16 kymmoy R_postcode cb12as
+17 <SILENCE>	kymmoy is an expensive asian_oriental restraunt in town .
+18 what is the phone number and area ?	kymmoy is in the centre of town and the phone number is 01223_311911 . may i help you with anything else ?
+19 thank you , i have all i need . goodbye !	you 're welcome . thanks for your call ! goodbye .
+
+1 i am looking for a restaurant serving malaysian food .	there are no malaysian restaurants in this area .
+2 i am also looking for a restaurant serving asian oriental food .	i have found several restaurants serving asian_oriental food . what area of town do you prefer ?
+3 i do n't care .	does the price range matter ?
+4 i do n't care	api_call asian_oriental dontcare dontcare
+5 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+6 dojo_noodle_bar R_area centre
+7 dojo_noodle_bar R_food asian_oriental
+8 dojo_noodle_bar R_location 52.201423,0.116661
+9 dojo_noodle_bar R_phone 01223_363471
+10 dojo_noodle_bar R_pricerange cheap
+11 dojo_noodle_bar R_postcode cb21rq
+12 yippee_noodle_bar R_address 40428_king_street_city_centre
+13 yippee_noodle_bar R_area centre
+14 yippee_noodle_bar R_food asian_oriental
+15 yippee_noodle_bar R_location 52.207446,0.122788
+16 yippee_noodle_bar R_phone 01223_518111
+17 yippee_noodle_bar R_pricerange moderate
+18 yippee_noodle_bar R_postcode cb11lh
+19 j_restaurant R_address 86_regent_street_city_centre
+20 j_restaurant R_area centre
+21 j_restaurant R_food asian_oriental
+22 j_restaurant R_location 52.200187,0.126407
+23 j_restaurant R_phone 01223_307581
+24 j_restaurant R_pricerange cheap
+25 j_restaurant R_postcode cb21dp
+26 saigon_city R_address 169_high_street_chesterton_chesterton
+27 saigon_city R_area north
+28 saigon_city R_food asian_oriental
+29 saigon_city R_location 52.218164,0.143209
+30 saigon_city R_phone 01223_356555
+31 saigon_city R_pricerange expensive
+32 saigon_city R_postcode cb41nl
+33 kymmoy R_address 52_mill_road_city_centre
+34 kymmoy R_area centre
+35 kymmoy R_food asian_oriental
+36 kymmoy R_location 52.200422,0.135784
+37 kymmoy R_phone 01223_311911
+38 kymmoy R_pricerange expensive
+39 kymmoy R_postcode cb12as
+40 <SILENCE>	might i suggest the dojo_noodle_bar . they are located in the centre of town and they are cheap . would you like their phone number ?
+41 yes , and their address too .	dojo_noodle_bar is located at 40210_millers_yard_city_centre and their phone number is 01223_363471 . is there anything else that i can help you with today ?
+42 what is the postcode ?	the postcode for dojo_noodle_bar is cb17dy
+43 no , that will be all . thank you and goodbye !	you 're welcome . good bye and have a great day !
+44 you , too .	thanks !
+
+1 hello , i am looking for a moderately priced restaurant that serves fusion food .	which area you would like to search in ?
+2 i do n't care .	i am sorry , there is no restaurant serving fusion food in the moderate price range . would you like any other type of food or different price range ?
+3 bummer . how about some reasonably priced chinese food , then ?	there are 4 chinese restaurants . three in the center of town and one in the north part of town all moderatly priced .
+4 what is the phone number of one of them ?	api_call chinese dontcare moderate
+5 jinling_noodle_bar R_address 11_peas_hill_city_centre
+6 jinling_noodle_bar R_area centre
+7 jinling_noodle_bar R_food chinese
+8 jinling_noodle_bar R_location 52.204453,0.118693
+9 jinling_noodle_bar R_phone 01223_566188
+10 jinling_noodle_bar R_pricerange moderate
+11 jinling_noodle_bar R_postcode cb23pp
+12 lan_hong_house R_address 12_norfolk_street_city_centre
+13 lan_hong_house R_area centre
+14 lan_hong_house R_food chinese
+15 lan_hong_house R_location 52.204609,0.137976
+16 lan_hong_house R_phone 01223_350420
+17 lan_hong_house R_pricerange moderate
+18 lan_hong_house R_postcode cb12lf
+19 golden_wok R_address 191_histon_road_chesterton
+20 golden_wok R_area north
+21 golden_wok R_food chinese
+22 golden_wok R_location 52.220757,0.111564
+23 golden_wok R_phone 01223_350688
+24 golden_wok R_pricerange moderate
+25 golden_wok R_postcode cb43hl
+26 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+27 shanghai_family_restaurant R_area centre
+28 shanghai_family_restaurant R_food chinese
+29 shanghai_family_restaurant R_location 52.206111,0.132969
+30 shanghai_family_restaurant R_phone 01223_301761
+31 shanghai_family_restaurant R_pricerange moderate
+32 shanghai_family_restaurant R_postcode cb11dg
+33 <SILENCE>	the lan_hong_house is great . their phone number is 01223_350420 . would you like any additional information about them ?
+34 what is the food type of that restaurant ?	they serve chinese food .
+35 thank you goodbye .	thank you for choosing our system . good bye
+
+1 i 'm looking for something serving christmas food .	there are no restaurants serving christmas food .
+2 how about a moderately priced chinese restaurant ?	api_call chinese dontcare moderate
+3 jinling_noodle_bar R_address 11_peas_hill_city_centre
+4 jinling_noodle_bar R_area centre
+5 jinling_noodle_bar R_food chinese
+6 jinling_noodle_bar R_location 52.204453,0.118693
+7 jinling_noodle_bar R_phone 01223_566188
+8 jinling_noodle_bar R_pricerange moderate
+9 jinling_noodle_bar R_postcode cb23pp
+10 lan_hong_house R_address 12_norfolk_street_city_centre
+11 lan_hong_house R_area centre
+12 lan_hong_house R_food chinese
+13 lan_hong_house R_location 52.204609,0.137976
+14 lan_hong_house R_phone 01223_350420
+15 lan_hong_house R_pricerange moderate
+16 lan_hong_house R_postcode cb12lf
+17 golden_wok R_address 191_histon_road_chesterton
+18 golden_wok R_area north
+19 golden_wok R_food chinese
+20 golden_wok R_location 52.220757,0.111564
+21 golden_wok R_phone 01223_350688
+22 golden_wok R_pricerange moderate
+23 golden_wok R_postcode cb43hl
+24 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+25 shanghai_family_restaurant R_area centre
+26 shanghai_family_restaurant R_food chinese
+27 shanghai_family_restaurant R_location 52.206111,0.132969
+28 shanghai_family_restaurant R_phone 01223_301761
+29 shanghai_family_restaurant R_pricerange moderate
+30 shanghai_family_restaurant R_postcode cb11dg
+31 <SILENCE>	yes , there is one called golden_wok in the north part of town . do you want this one ?
+32 ok , what 's the phone number ?	golden_wok 's number is 01223_350688
+33 is there anything else ?	that 's all , enjoy your meal .
+34 thanks ! you too !	goodbye .
+
+1 north part of town restaurant please	what type of food would you like ?
+2 chinese	do you have a certain price range you would like ?
+3 i do n't care .	there are several chinese restaurants . would you like their phone number ?
+4 yes , and i need one of their names please .	api_call chinese north dontcare
+5 hakka R_address milton_road_chesterton
+6 hakka R_area north
+7 hakka R_food chinese
+8 hakka R_location 52.215311,0.12593
+9 hakka R_phone 01223_568988
+10 hakka R_pricerange expensive
+11 hakka R_postcode cb41jy
+12 golden_wok R_address 191_histon_road_chesterton
+13 golden_wok R_area north
+14 golden_wok R_food chinese
+15 golden_wok R_location 52.220757,0.111564
+16 golden_wok R_phone 01223_350688
+17 golden_wok R_pricerange moderate
+18 golden_wok R_postcode cb43hl
+19 the_hotpot R_address 66_chesterton_road_chesterton
+20 the_hotpot R_area north
+21 the_hotpot R_food chinese
+22 the_hotpot R_location 52.214531,0.127298
+23 the_hotpot R_phone 01223_366552
+24 the_hotpot R_pricerange expensive
+25 the_hotpot R_postcode cb41ep
+26 <SILENCE>	hakka is a chinese restaurant in the north part of town .
+27 sound perfect ! what is their phone number ?	hakka 's phone number is 01223_568988 . is there anything else i can do for you today ?
+28 thank you , goodbye	thank you for using the cambridge restaurant system . goodbye .
+
+1 i am looking for a cheap restaurant serving chinese food .	what area of town are you looking at ?
+2 i do n't care .	we have four restaurant in the cheap price serving chinese food , can i help you with anything else ?
+3 yes please . i want the address and phone number of anyone of them .	api_call chinese dontcare cheap
+4 charlie_chan R_address regent_street_city_centre
+5 charlie_chan R_area centre
+6 charlie_chan R_food chinese
+7 charlie_chan R_location 52.201743,0.124843
+8 charlie_chan R_phone 01223_361763
+9 charlie_chan R_pricerange cheap
+10 charlie_chan R_postcode cb21db
+11 rice_house R_address 88_mill_road_city_centre
+12 rice_house R_area centre
+13 rice_house R_food chinese
+14 rice_house R_location 52.199332,0.138395
+15 rice_house R_phone 01223_367755
+16 rice_house R_pricerange cheap
+17 rice_house R_postcode cb12bd
+18 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+19 the_lucky_star R_area south
+20 the_lucky_star R_food chinese
+21 the_lucky_star R_location 52.190176,0.13699
+22 the_lucky_star R_phone 01223_244277
+23 the_lucky_star R_pricerange cheap
+24 the_lucky_star R_postcode cb17dy
+25 golden_house R_address 12_lensfield_road_city_centre
+26 golden_house R_area centre
+27 golden_house R_food chinese
+28 golden_house R_location 52.198696,0.12578
+29 golden_house R_phone 01842_753771
+30 golden_house R_pricerange cheap
+31 golden_house R_postcode cb21eg
+32 <SILENCE>	charlie_chan is located at regent_street_city_centre and its phone number is 01223_361763 . is there anything else i can help you with ?
+33 thank you , goodbye	you 're welcome ! goodbye !
+
+1 i want to find a restaurant in the east part of town . it serves chinese food . what is the address , phone number , and postcode ?	api_call chinese east dontcare
+2 yu_garden R_address 529_newmarket_road_fen_ditton
+3 yu_garden R_area east
+4 yu_garden R_food chinese
+5 yu_garden R_location 52.212992,0.157569
+6 yu_garden R_phone 01223_248882
+7 yu_garden R_pricerange expensive
+8 yu_garden R_postcode cb58pa
+9 <SILENCE>	yu_garden is a chinese restaurant in the east part of town . their address is 529_newmarket_road_fen_ditton , phone number 01223_248882 and postcode cb58pa .
+10 thank you goodbye .	you 're welcome , goodbye .
+
+1 i am looking for a restaurant in the north part of town serving persian food .	there are n't any restaurants serving persian food in the north part of town . would you like me to look in a different area ?
+2 are there chinese restaurants in the north part of town ?	there are three chinese restaurants in the north part of town . what price range would you like ?
+3 any price range would be fine .	there are three restaurants that serve chinese food in the north part of town . would you like me to list them ?
+4 please provide a phone number for one of the restaurants .	api_call chinese north dontcare
+5 hakka R_address milton_road_chesterton
+6 hakka R_area north
+7 hakka R_food chinese
+8 hakka R_location 52.215311,0.12593
+9 hakka R_phone 01223_568988
+10 hakka R_pricerange expensive
+11 hakka R_postcode cb41jy
+12 golden_wok R_address 191_histon_road_chesterton
+13 golden_wok R_area north
+14 golden_wok R_food chinese
+15 golden_wok R_location 52.220757,0.111564
+16 golden_wok R_phone 01223_350688
+17 golden_wok R_pricerange moderate
+18 golden_wok R_postcode cb43hl
+19 the_hotpot R_address 66_chesterton_road_chesterton
+20 the_hotpot R_area north
+21 the_hotpot R_food chinese
+22 the_hotpot R_location 52.214531,0.127298
+23 the_hotpot R_phone 01223_366552
+24 the_hotpot R_pricerange expensive
+25 the_hotpot R_postcode cb41ep
+26 <SILENCE>	golden_wok is a chinese restaurant located in the north part of town , and the phone number is 01223_350688 .
+27 can i have the phone number to one more restarant please ?	the hakka also serves chinese food and is on the north side of town . their phone number is 01223_568988 . is there anything else i can help you with .
+28 no , thank you . that is good . good bye .	thank you for using our system . good bye
+
+1 what is a cheap restaurant in the south part of town ?	there are two restaurants in the south of town in the cheap price range . would you prefer portuguese of chinese ?
+2 is there anything else ? if not , chinese .	api_call chinese south cheap
+3 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+4 the_lucky_star R_area south
+5 the_lucky_star R_food chinese
+6 the_lucky_star R_location 52.190176,0.13699
+7 the_lucky_star R_phone 01223_244277
+8 the_lucky_star R_pricerange cheap
+9 the_lucky_star R_postcode cb17dy
+10 <SILENCE>	the_lucky_star is a chinese restaurant in the south part of town and in the cheap price range . would you like their location ?
+11 yes , can you give me the address ?	the address of the_lucky_star is , cambridge_leisure_park_clifton_way cherry hinton . is there anything else i can help you with ?
+12 no , thank you .	excellent , have a wonderful evening .
+
+1 i am searching for a lebanese restaurant in the east part of town .	there are no lebanese restaurants in east . do you have another food type you would be interested in ?
+2 how about chinese food ? i would like to know the address , phone number , and postcode of the restaurant .	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is at 529_newmarket_road_fen_ditton , postcode cb58pa . the phone number is 01223_248882 .
+11 is that in the east part of town ?	yes , yu_garden is in the east part of town .
+12 thank you good bye .	thank you
+13 that 's all i need to know , then . goodbye .	goodbye
+
+1 i 'd like information about a restaurant in south that serves english food .	i 'm sorry , there are no restaurants in the south that serve english food . can i look for something else ?
+2 how about chinese food ?	there are three restaurants that serve chinese food in the south part of town . what price range would you like ?
+3 cheap price range	api_call chinese south cheap
+4 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+5 the_lucky_star R_area south
+6 the_lucky_star R_food chinese
+7 the_lucky_star R_location 52.190176,0.13699
+8 the_lucky_star R_phone 01223_244277
+9 the_lucky_star R_pricerange cheap
+10 the_lucky_star R_postcode cb17dy
+11 <SILENCE>	the_lucky_star is the only chinese restaurant in the south part of town . would you like any specific contact information for them ?
+12 yes , i would like to know the address please	the_lucky_star is located at cambridge_leisure_park_clifton_way cherry hinton . can i help you with anything else ?
+13 thank you , goodbye .	thank you , goodbye !
+
+1 are there any eritrean restaurants in town ?	no , there are no eritrean restaurants in town . would you like a different restaurant ?
+2 how about chinese food ?	there is a wide variety of chinese restaurants , do you have an area preference or a price preference to narrow it down ?
+3 i would like the east part of town .	api_call chinese east dontcare
+4 yu_garden R_address 529_newmarket_road_fen_ditton
+5 yu_garden R_area east
+6 yu_garden R_food chinese
+7 yu_garden R_location 52.212992,0.157569
+8 yu_garden R_phone 01223_248882
+9 yu_garden R_pricerange expensive
+10 yu_garden R_postcode cb58pa
+11 <SILENCE>	yu_garden is a chinese restaurant in the east area .
+12 could i get the address , phone number , and postcode of yu_garden ?	phone is 01223_248882 , address and postcode are 529_newmarket_road_fen_ditton cb58pa
+13 thank you . that is all the information i needed . bye bye !	bye !
+
+1 i am looking for a cheap restaurant with chinese food .	there are several cheap chinese restaurants . would you prefer any certain area of town ?
+2 south part of town .	api_call chinese south cheap
+3 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+4 the_lucky_star R_area south
+5 the_lucky_star R_food chinese
+6 the_lucky_star R_location 52.190176,0.13699
+7 the_lucky_star R_phone 01223_244277
+8 the_lucky_star R_pricerange cheap
+9 the_lucky_star R_postcode cb17dy
+10 <SILENCE>	the_lucky_star is the only cheap chinese restaurant in the south part of town . would you like any contact information ?
+11 yes , what is their phone number and address ?	the_lucky_star restaurant is on cambridge_leisure_park_clifton_way cherry hinton and can be reached by phone at 01223_244277 .
+12 excellent . thanks a lot . i think that 's everything i need .	thank you for choosing our system . good bye
+
+1 i want to have some afghan food .	sorry , no matches found
+2 is there any chinese restaurants in the area ?	there are many chinese restaurants . what price range are you looking for ?
+3 moderate price range	would you like something in the north or centre of town ?
+4 i do n't care	api_call chinese dontcare moderate
+5 jinling_noodle_bar R_address 11_peas_hill_city_centre
+6 jinling_noodle_bar R_area centre
+7 jinling_noodle_bar R_food chinese
+8 jinling_noodle_bar R_location 52.204453,0.118693
+9 jinling_noodle_bar R_phone 01223_566188
+10 jinling_noodle_bar R_pricerange moderate
+11 jinling_noodle_bar R_postcode cb23pp
+12 lan_hong_house R_address 12_norfolk_street_city_centre
+13 lan_hong_house R_area centre
+14 lan_hong_house R_food chinese
+15 lan_hong_house R_location 52.204609,0.137976
+16 lan_hong_house R_phone 01223_350420
+17 lan_hong_house R_pricerange moderate
+18 lan_hong_house R_postcode cb12lf
+19 golden_wok R_address 191_histon_road_chesterton
+20 golden_wok R_area north
+21 golden_wok R_food chinese
+22 golden_wok R_location 52.220757,0.111564
+23 golden_wok R_phone 01223_350688
+24 golden_wok R_pricerange moderate
+25 golden_wok R_postcode cb43hl
+26 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+27 shanghai_family_restaurant R_area centre
+28 shanghai_family_restaurant R_food chinese
+29 shanghai_family_restaurant R_location 52.206111,0.132969
+30 shanghai_family_restaurant R_phone 01223_301761
+31 shanghai_family_restaurant R_pricerange moderate
+32 shanghai_family_restaurant R_postcode cb11dg
+33 <SILENCE>	jinling_noodle_bar is a nice place that fits your requirement
+34 please give me their number , too .	jinling_noodle_bar 's number is 01223_566188 . would you like the address ?
+35 what type of food do they serve ?	jinling_noodle_bar is a nice chinese restaurant .
+36 no thank you , goodbye .	okay , goodbye .
+
+1 im looking for a restaurant in the north part of town in the cheap price range	there are two restaurants in the cheap range on the north side of town . would you prefer indian or italian ?
+2 i am looking for the east part of town , serving austrian food .	i am sorry , there is no such restaurant match your request . would you prefer another area or another type of food ?
+3 how about chinese food on the east part of town ?	api_call chinese east cheap
+4 <SILENCE>	yu_garden serves chinese food and is located in the east part of town . would you like more information ?
+5 yes , i would like their address , phone number and postcode , please .	their address is 529_newmarket_road_fen_ditton , their phone number is 01223_248882 and their postcode is cb58pa .
+6 that 's all i 'm looking for . thank you for the information .	you 're welcome . goodbye .
+
+1 i 'm looking for a moderately priced restaurant .	what type of food are you looking for ?
+2 chinese food	i 'm showing 4 restaurants matching that description , 3 in the city centre and 1 in the north . do you have a preference for area ?
+3 could you give me the address and phone number of the one in the north ?	api_call chinese north moderate
+4 golden_wok R_address 191_histon_road_chesterton
+5 golden_wok R_area north
+6 golden_wok R_food chinese
+7 golden_wok R_location 52.220757,0.111564
+8 golden_wok R_phone 01223_350688
+9 golden_wok R_pricerange moderate
+10 golden_wok R_postcode cb43hl
+11 <SILENCE>	golden_wok is in the north area , its phone number is 01223_350688 . their address is 191_histon_road_chesterton
+12 thank you , goodbye .	enjoy !
+
+1 i want an expensive restaurant and serves danish food .	i found no restaurants serving danish food in the expensive price range .
+2 asian oriental	api_call asian_oriental dontcare expensive
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 kymmoy R_address 52_mill_road_city_centre
+11 kymmoy R_area centre
+12 kymmoy R_food asian_oriental
+13 kymmoy R_location 52.200422,0.135784
+14 kymmoy R_phone 01223_311911
+15 kymmoy R_pricerange expensive
+16 kymmoy R_postcode cb12as
+17 <SILENCE>	kymmoy is an asian_oriental restaurant located in the centre of town and is in the expensive price range . would you like their address ?
+18 what is the phone number and area ?	the phone number for kymmoy is 01223_311911 and they are located in the centre of town .
+19 thank you ! goodbye !	you 're very welcome . thanks for calling us . goodbye .
+
+1 i would like an expensive restaurant that serves afghan food	it does not appear there are any restaurants serving afghan food
+2 how about asian oriental food ?	api_call asian_oriental dontcare expensive
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 kymmoy R_address 52_mill_road_city_centre
+11 kymmoy R_area centre
+12 kymmoy R_food asian_oriental
+13 kymmoy R_location 52.200422,0.135784
+14 kymmoy R_phone 01223_311911
+15 kymmoy R_pricerange expensive
+16 kymmoy R_postcode cb12as
+17 <SILENCE>	kymmoy is in centre , and saigon_city is in north . would you like more information on one of those ?
+18 could you tell me the phone number of saigon_city ?	the phone number for kymmoy is 01223_311911 . would you like any additional information ?
+19 yes , i would like the number for saigon_city .	01223_356555 is the number .
+20 thank you . can you also tell me the address for saigon_city , please ?	the address for saigon_city is 169_high_street_chesterton_chesterton
+21 which part of town it is in ?	it is located in the north part of town
+22 thank you good bye	thank you goo bye
+
+1 i need a south restaurant with british food .	i 'm sorry but i can not find any british food located in the south part of town .
+2 is there a chinese restaurant in the south part of town ?	i 've found three chinese restaurants in the south part of town . does price range matter to you ?
+3 no , any price range is fine . i would just like to know the address and price range of one of the restaurants .	api_call chinese south dontcare
+4 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+5 the_good_luck_chinese_food_takeaway R_area south
+6 the_good_luck_chinese_food_takeaway R_food chinese
+7 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+8 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+9 the_good_luck_chinese_food_takeaway R_pricerange expensive
+10 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+11 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+12 the_lucky_star R_area south
+13 the_lucky_star R_food chinese
+14 the_lucky_star R_location 52.190176,0.13699
+15 the_lucky_star R_phone 01223_244277
+16 the_lucky_star R_pricerange cheap
+17 the_lucky_star R_postcode cb17dy
+18 peking_restaurant R_address 10_homerton_street_city_centre
+19 peking_restaurant R_area south
+20 peking_restaurant R_food chinese
+21 peking_restaurant R_location 52.189484,0.135465
+22 peking_restaurant R_phone 01223_354755
+23 peking_restaurant R_pricerange expensive
+24 peking_restaurant R_postcode cb28nx
+25 <SILENCE>	peking_restaurant is an expensive chinese restaurant that is located at 10_homerton_street_city_centre . is there anything else i can help you with today ?
+26 no , thank you .	thank you .
+
+1 i would like a restaurant in the south part of town that serves christmas food	i 'm sorry but there are no restaurants serving christmas food . can i find anything else ?
+2 how about chinese food ?	there are three restaurants in the south part of town that serve chinese food . what price range would you like ?
+3 i dont care	api_call chinese south dontcare
+4 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+5 the_good_luck_chinese_food_takeaway R_area south
+6 the_good_luck_chinese_food_takeaway R_food chinese
+7 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+8 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+9 the_good_luck_chinese_food_takeaway R_pricerange expensive
+10 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+11 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+12 the_lucky_star R_area south
+13 the_lucky_star R_food chinese
+14 the_lucky_star R_location 52.190176,0.13699
+15 the_lucky_star R_phone 01223_244277
+16 the_lucky_star R_pricerange cheap
+17 the_lucky_star R_postcode cb17dy
+18 peking_restaurant R_address 10_homerton_street_city_centre
+19 peking_restaurant R_area south
+20 peking_restaurant R_food chinese
+21 peking_restaurant R_location 52.189484,0.135465
+22 peking_restaurant R_phone 01223_354755
+23 peking_restaurant R_pricerange expensive
+24 peking_restaurant R_postcode cb28nx
+25 <SILENCE>	i would recommend peking_restaurant , which is a nice restaurant in the south .
+26 can i have the address of them , also the price range ?	peking_restaurant is expensive , its location is at 10_homerton_street_city_centre .
+27 thank you good bye	enjoy your meal , goodbye .
+
+1 i would like a restaurant in the south part of town that serves greek food	i am sorry there no restaurants matching what you want . is there anything else ?
+2 how about chinese food ?	would you like something in the expensive or cheap price range ?
+3 cheap , i think .	api_call chinese south cheap
+4 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+5 the_lucky_star R_area south
+6 the_lucky_star R_food chinese
+7 the_lucky_star R_location 52.190176,0.13699
+8 the_lucky_star R_phone 01223_244277
+9 the_lucky_star R_pricerange cheap
+10 the_lucky_star R_postcode cb17dy
+11 <SILENCE>	the_lucky_star serves chinese food , is located in the south part of town and is in the cheap price range . would you like more information for them ?
+12 what is the address ?	cambridge_leisure_park_clifton_way cherry hinton
+13 thank you goodbye .	you 're welcome . goodbye .
+14 goodbye .	good bye .
+
+1 i am looking for a moderately priced chinese restaurant .	api_call chinese dontcare moderate
+2 jinling_noodle_bar R_address 11_peas_hill_city_centre
+3 jinling_noodle_bar R_area centre
+4 jinling_noodle_bar R_food chinese
+5 jinling_noodle_bar R_location 52.204453,0.118693
+6 jinling_noodle_bar R_phone 01223_566188
+7 jinling_noodle_bar R_pricerange moderate
+8 jinling_noodle_bar R_postcode cb23pp
+9 lan_hong_house R_address 12_norfolk_street_city_centre
+10 lan_hong_house R_area centre
+11 lan_hong_house R_food chinese
+12 lan_hong_house R_location 52.204609,0.137976
+13 lan_hong_house R_phone 01223_350420
+14 lan_hong_house R_pricerange moderate
+15 lan_hong_house R_postcode cb12lf
+16 golden_wok R_address 191_histon_road_chesterton
+17 golden_wok R_area north
+18 golden_wok R_food chinese
+19 golden_wok R_location 52.220757,0.111564
+20 golden_wok R_phone 01223_350688
+21 golden_wok R_pricerange moderate
+22 golden_wok R_postcode cb43hl
+23 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+24 shanghai_family_restaurant R_area centre
+25 shanghai_family_restaurant R_food chinese
+26 shanghai_family_restaurant R_location 52.206111,0.132969
+27 shanghai_family_restaurant R_phone 01223_301761
+28 shanghai_family_restaurant R_pricerange moderate
+29 shanghai_family_restaurant R_postcode cb11dg
+30 <SILENCE>	golden_wok is moderately priced restaurant located in the north part of town .
+31 could you please give me their address and postcode ?	golden_wok is located 191_histon_road_chesterton at and their postcode is cb43hl . is there anything else i can help you with today ?
+32 thank you goodbye .	thank you for using our system . good bye
+
+1 i 'm looking for malaysian food .	sorry i can not find any malaysian restaurants . can i offer you something else ?
+2 how about asian oriental type of food ?	there are five search results . are you interested in a particular area or price range ?
+3 no particular area , but i 'm looking for an expensive restaurant .	api_call asian_oriental dontcare expensive
+4 saigon_city R_address 169_high_street_chesterton_chesterton
+5 saigon_city R_area north
+6 saigon_city R_food asian_oriental
+7 saigon_city R_location 52.218164,0.143209
+8 saigon_city R_phone 01223_356555
+9 saigon_city R_pricerange expensive
+10 saigon_city R_postcode cb41nl
+11 kymmoy R_address 52_mill_road_city_centre
+12 kymmoy R_area centre
+13 kymmoy R_food asian_oriental
+14 kymmoy R_location 52.200422,0.135784
+15 kymmoy R_phone 01223_311911
+16 kymmoy R_pricerange expensive
+17 kymmoy R_postcode cb12as
+18 <SILENCE>	there is saigon_city at 169_high_street_chesterton_chesterton , phone 01223_356555 .
+19 is there anything else ?	there is also kymmoy in the centre of town , at 52 mill_road_city_centre . their phone number is 01223_311911 .
+20 thank you , goodbye	thank you , and enjoy your meal !
+
+1 i want a moderately priced restaurant and serves asian oriental food . what is the address and phone number ?	api_call asian_oriental dontcare moderate
+2 yippee_noodle_bar R_address 40428_king_street_city_centre
+3 yippee_noodle_bar R_area centre
+4 yippee_noodle_bar R_food asian_oriental
+5 yippee_noodle_bar R_location 52.207446,0.122788
+6 yippee_noodle_bar R_phone 01223_518111
+7 yippee_noodle_bar R_pricerange moderate
+8 yippee_noodle_bar R_postcode cb11lh
+9 <SILENCE>	there is an asian_oriental place at 40428_king_street_city_centre . you can call them at 01223_518111 .
+10 thank you goodbye .	thank you for using our system ! have a great day !
+
+1 i am looking for a cheap restaurant that serves cuban food .	i am sorry there are no cuban restaurants in the cheap price range . is there anywhere else you will like to search for ?
+2 could you look for chinese restaurants instead ?	api_call chinese dontcare cheap
+3 charlie_chan R_address regent_street_city_centre
+4 charlie_chan R_area centre
+5 charlie_chan R_food chinese
+6 charlie_chan R_location 52.201743,0.124843
+7 charlie_chan R_phone 01223_361763
+8 charlie_chan R_pricerange cheap
+9 charlie_chan R_postcode cb21db
+10 rice_house R_address 88_mill_road_city_centre
+11 rice_house R_area centre
+12 rice_house R_food chinese
+13 rice_house R_location 52.199332,0.138395
+14 rice_house R_phone 01223_367755
+15 rice_house R_pricerange cheap
+16 rice_house R_postcode cb12bd
+17 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+18 the_lucky_star R_area south
+19 the_lucky_star R_food chinese
+20 the_lucky_star R_location 52.190176,0.13699
+21 the_lucky_star R_phone 01223_244277
+22 the_lucky_star R_pricerange cheap
+23 the_lucky_star R_postcode cb17dy
+24 golden_house R_address 12_lensfield_road_city_centre
+25 golden_house R_area centre
+26 golden_house R_food chinese
+27 golden_house R_location 52.198696,0.12578
+28 golden_house R_phone 01842_753771
+29 golden_house R_pricerange cheap
+30 golden_house R_postcode cb21eg
+31 <SILENCE>	there are 3 in the centre and one in the south . charlie_chan is one of the cheap chinese restaurants in the centre .
+32 can i get the address and phone number of charlie_chan , please ?	charlie_chan 's phone number is 01223_361763 and the address is regent_street_city_centre . may i help you with anything else ?
+33 thank you , that is all i need . goodbye !	thank you , goodbye !
+
+1 i would like a restaurant in the east part of town that serves indonesian food	i do n't see any indonesian restaurants at all . would you like me to look for a different type of restaurant in the east ?
+2 how about a chinese restaurant in the north ?	there are three chinese restaurants in the north . are you looking for a specific price range ?
+3 i 'm sorry i meant a chinese restaurant in the east . any price range is ok .	api_call chinese east dontcare
+4 yu_garden R_address 529_newmarket_road_fen_ditton
+5 yu_garden R_area east
+6 yu_garden R_food chinese
+7 yu_garden R_location 52.212992,0.157569
+8 yu_garden R_phone 01223_248882
+9 yu_garden R_pricerange expensive
+10 yu_garden R_postcode cb58pa
+11 <SILENCE>	how about yu_garden . it is in the east part of town and serves chinese food .
+12 okay , may i have the address , phone number and post code please ?	the address is 529_newmarket_road_fen_ditton , the postcode is cb58pa and the phone number is 01223_248882 .
+13 thank you , goodbye .	good bye
+
+1 hello , i am looking for a restaurant in the centre of town that serves brazilian food .	there are no restaurants matching your request .
+2 can you look for asian oriental food ?	api_call asian_oriental centre dontcare
+3 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+4 dojo_noodle_bar R_area centre
+5 dojo_noodle_bar R_food asian_oriental
+6 dojo_noodle_bar R_location 52.201423,0.116661
+7 dojo_noodle_bar R_phone 01223_363471
+8 dojo_noodle_bar R_pricerange cheap
+9 dojo_noodle_bar R_postcode cb21rq
+10 yippee_noodle_bar R_address 40428_king_street_city_centre
+11 yippee_noodle_bar R_area centre
+12 yippee_noodle_bar R_food asian_oriental
+13 yippee_noodle_bar R_location 52.207446,0.122788
+14 yippee_noodle_bar R_phone 01223_518111
+15 yippee_noodle_bar R_pricerange moderate
+16 yippee_noodle_bar R_postcode cb11lh
+17 j_restaurant R_address 86_regent_street_city_centre
+18 j_restaurant R_area centre
+19 j_restaurant R_food asian_oriental
+20 j_restaurant R_location 52.200187,0.126407
+21 j_restaurant R_phone 01223_307581
+22 j_restaurant R_pricerange cheap
+23 j_restaurant R_postcode cb21dp
+24 kymmoy R_address 52_mill_road_city_centre
+25 kymmoy R_area centre
+26 kymmoy R_food asian_oriental
+27 kymmoy R_location 52.200422,0.135784
+28 kymmoy R_phone 01223_311911
+29 kymmoy R_pricerange expensive
+30 kymmoy R_postcode cb12as
+31 <SILENCE>	dojo_noodle_bar is an asian_oriental restaurant in the centre of town .
+32 what is the phone number ?	the phone number for dojo_noodle_bar is 01223_363471 . can i help you with anything else ?
+33 no thank you good bye	thank you for using this system and please call again . goodbye .
+
+1 hello , i am looking for a restaurant on the south side of town that serves international food .	i 'm sorry , there are no international food restaurants on the south side of town . would you like another type of food ?
+2 how about chinese food ?	api_call chinese south dontcare
+3 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+4 the_good_luck_chinese_food_takeaway R_area south
+5 the_good_luck_chinese_food_takeaway R_food chinese
+6 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+7 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+8 the_good_luck_chinese_food_takeaway R_pricerange expensive
+9 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+10 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+11 the_lucky_star R_area south
+12 the_lucky_star R_food chinese
+13 the_lucky_star R_location 52.190176,0.13699
+14 the_lucky_star R_phone 01223_244277
+15 the_lucky_star R_pricerange cheap
+16 the_lucky_star R_postcode cb17dy
+17 peking_restaurant R_address 10_homerton_street_city_centre
+18 peking_restaurant R_area south
+19 peking_restaurant R_food chinese
+20 peking_restaurant R_location 52.189484,0.135465
+21 peking_restaurant R_phone 01223_354755
+22 peking_restaurant R_pricerange expensive
+23 peking_restaurant R_postcode cb28nx
+24 <SILENCE>	there are the peking_restaurant , which is expensive , the_good_luck_chinese_food_takeaway , which is also expensive , and the_lucky_star , which is cheap .
+25 can i have the address of lucky star ?	cambridge_leisure_park_clifton_way cherry hinton 01223_244277
+26 thank you !	thank you . good bye
+
+1 hi . this might be a long shot , but can you help me find a restaurant that serves swedish food ? i do n't care about price .	there are no restaurants serving swedish food .
+2 how about asian oriental type of food ?	api_call asian_oriental dontcare dontcare
+3 dojo_noodle_bar R_address 40210_millers_yard_city_centre
+4 dojo_noodle_bar R_area centre
+5 dojo_noodle_bar R_food asian_oriental
+6 dojo_noodle_bar R_location 52.201423,0.116661
+7 dojo_noodle_bar R_phone 01223_363471
+8 dojo_noodle_bar R_pricerange cheap
+9 dojo_noodle_bar R_postcode cb21rq
+10 yippee_noodle_bar R_address 40428_king_street_city_centre
+11 yippee_noodle_bar R_area centre
+12 yippee_noodle_bar R_food asian_oriental
+13 yippee_noodle_bar R_location 52.207446,0.122788
+14 yippee_noodle_bar R_phone 01223_518111
+15 yippee_noodle_bar R_pricerange moderate
+16 yippee_noodle_bar R_postcode cb11lh
+17 j_restaurant R_address 86_regent_street_city_centre
+18 j_restaurant R_area centre
+19 j_restaurant R_food asian_oriental
+20 j_restaurant R_location 52.200187,0.126407
+21 j_restaurant R_phone 01223_307581
+22 j_restaurant R_pricerange cheap
+23 j_restaurant R_postcode cb21dp
+24 saigon_city R_address 169_high_street_chesterton_chesterton
+25 saigon_city R_area north
+26 saigon_city R_food asian_oriental
+27 saigon_city R_location 52.218164,0.143209
+28 saigon_city R_phone 01223_356555
+29 saigon_city R_pricerange expensive
+30 saigon_city R_postcode cb41nl
+31 kymmoy R_address 52_mill_road_city_centre
+32 kymmoy R_area centre
+33 kymmoy R_food asian_oriental
+34 kymmoy R_location 52.200422,0.135784
+35 kymmoy R_phone 01223_311911
+36 kymmoy R_pricerange expensive
+37 kymmoy R_postcode cb12as
+38 <SILENCE>	dojo_noodle_bar serves asian_oriental food in the centre of town . would you like their number ?
+39 no thank you . i just need the address and postcode , please .	dojo_noodle_bar is located at 40210_millers_yard_city_centre and their postcode is cb21rq . is there anything else i can assist you with ?
+40 no , thank you , goodbye .	thank you for using the cambridge restaurant system . good bye .
+
+1 i am looking for a cuban restaurant in the north part of town .	i am sorry , i could not find any cuban restaurants for you in the north part of town . is there a different type of food you would like me to search for instead ?
+2 i still want the north part of town , but look for asian oriental food instead please .	api_call asian_oriental north dontcare
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 <SILENCE>	saigon_city is located in the north part of town and serves asian_oriental food . would you like their address ?
+11 yes , i would like their address and phone number , please .	the phone number for saigon_city is 01223_356555 and their address is 169_high_street_chesterton_chesterton . would you like anything else ?
+12 no , that does it . thank you and goodbye !	thank you for using this system . goodbye .
+
+1 i need an east restaurant . i want to try some canapes food .	i 'm sorry , but there are no restaurants serving canapes food in the east part of town .
+2 then could you recommend a chinese restaurant ?	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is a chinese restaurant in the east part of town .
+11 address , phone number , and postcode , please	yu_garden is located at 529_newmarket_road_fen_ditton and their number is 01223_248882 . also , their postcode is cb58pa . is there anything else i can help you with ?
+12 no , thank you , goodbye .	thank you .
+13 goodbye .	enjoy your meal .
+
+1 i would like a restaurant in the north part of town that serves australasian food	there are no restaurants matching your criteria . would you like to search for something else ?
+2 how about asian oriental food ?	api_call asian_oriental north dontcare
+3 saigon_city R_address 169_high_street_chesterton_chesterton
+4 saigon_city R_area north
+5 saigon_city R_food asian_oriental
+6 saigon_city R_location 52.218164,0.143209
+7 saigon_city R_phone 01223_356555
+8 saigon_city R_pricerange expensive
+9 saigon_city R_postcode cb41nl
+10 <SILENCE>	saigon_city serves asian_oriental and they are located in the north , although they are quite expensive . would you like the address ?
+11 yes , i would like their address and phone number .	saigon_city 's address is 169_high_street_chesterton_chesterton and its phone number is 01223_356555
+12 thank you goodbye .	thank you and good bye
+
+1 i 'm looking for a place that has chinese food .	there are 17 chinese restaurants , do you prefer any price range or any area in town ?
+2 yes , i 'm looking for the address of one in the east part of town .	api_call chinese east dontcare
+3 yu_garden R_address 529_newmarket_road_fen_ditton
+4 yu_garden R_area east
+5 yu_garden R_food chinese
+6 yu_garden R_location 52.212992,0.157569
+7 yu_garden R_phone 01223_248882
+8 yu_garden R_pricerange expensive
+9 yu_garden R_postcode cb58pa
+10 <SILENCE>	yu_garden is a great , but expensive , chinese restaurant . they are located at 529_newmarket_road_fen_ditton . is there anything else i can do for you ?
+11 thank you goodbye	goodbye .
+
+1 i am looking for the address and price range of a restaurant serving chinese food in the south part of town .	api_call chinese south dontcare
+2 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+3 the_good_luck_chinese_food_takeaway R_area south
+4 the_good_luck_chinese_food_takeaway R_food chinese
+5 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+6 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+7 the_good_luck_chinese_food_takeaway R_pricerange expensive
+8 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+9 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+10 the_lucky_star R_area south
+11 the_lucky_star R_food chinese
+12 the_lucky_star R_location 52.190176,0.13699
+13 the_lucky_star R_phone 01223_244277
+14 the_lucky_star R_pricerange cheap
+15 the_lucky_star R_postcode cb17dy
+16 peking_restaurant R_address 10_homerton_street_city_centre
+17 peking_restaurant R_area south
+18 peking_restaurant R_food chinese
+19 peking_restaurant R_location 52.189484,0.135465
+20 peking_restaurant R_phone 01223_354755
+21 peking_restaurant R_pricerange expensive
+22 peking_restaurant R_postcode cb28nx
+23 <SILENCE>	peking_restaurant is a chinese restaurant located in the south part of town in the expensive price range . their address is 10_homerton_street_city_centre .
+24 thank you , goodbye .	thank you and have a wonderful day !
+25 thanks again . goodbye !	thank you for using the cambridge restaurant system . goodbye .
+
+1 i am looking for a restaurant that serves japanese food . i do n't care about the price range .	there is not a restaurant serving japanese food . would you like a different type food ?
+2 is there anything in the area for chinese food ?	api_call chinese dontcare dontcare
+3 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+4 the_good_luck_chinese_food_takeaway R_area south
+5 the_good_luck_chinese_food_takeaway R_food chinese
+6 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+7 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+8 the_good_luck_chinese_food_takeaway R_pricerange expensive
+9 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+10 yu_garden R_address 529_newmarket_road_fen_ditton
+11 yu_garden R_area east
+12 yu_garden R_food chinese
+13 yu_garden R_location 52.212992,0.157569
+14 yu_garden R_phone 01223_248882
+15 yu_garden R_pricerange expensive
+16 yu_garden R_postcode cb58pa
+17 charlie_chan R_address regent_street_city_centre
+18 charlie_chan R_area centre
+19 charlie_chan R_food chinese
+20 charlie_chan R_location 52.201743,0.124843
+21 charlie_chan R_phone 01223_361763
+22 charlie_chan R_pricerange cheap
+23 charlie_chan R_postcode cb21db
+24 jinling_noodle_bar R_address 11_peas_hill_city_centre
+25 jinling_noodle_bar R_area centre
+26 jinling_noodle_bar R_food chinese
+27 jinling_noodle_bar R_location 52.204453,0.118693
+28 jinling_noodle_bar R_phone 01223_566188
+29 jinling_noodle_bar R_pricerange moderate
+30 jinling_noodle_bar R_postcode cb23pp
+31 rice_house R_address 88_mill_road_city_centre
+32 rice_house R_area centre
+33 rice_house R_food chinese
+34 rice_house R_location 52.199332,0.138395
+35 rice_house R_phone 01223_367755
+36 rice_house R_pricerange cheap
+37 rice_house R_postcode cb12bd
+38 ugly_duckling R_address 12_st._johns_street_city_centre
+39 ugly_duckling R_area centre
+40 ugly_duckling R_food chinese
+41 ugly_duckling R_location 52.208055,0.118397
+42 ugly_duckling R_pricerange expensive
+43 ugly_duckling R_postcode cb21tw
+44 lan_hong_house R_address 12_norfolk_street_city_centre
+45 lan_hong_house R_area centre
+46 lan_hong_house R_food chinese
+47 lan_hong_house R_location 52.204609,0.137976
+48 lan_hong_house R_phone 01223_350420
+49 lan_hong_house R_pricerange moderate
+50 lan_hong_house R_postcode cb12lf
+51 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+52 the_lucky_star R_area south
+53 the_lucky_star R_food chinese
+54 the_lucky_star R_location 52.190176,0.13699
+55 the_lucky_star R_phone 01223_244277
+56 the_lucky_star R_pricerange cheap
+57 the_lucky_star R_postcode cb17dy
+58 golden_house R_address 12_lensfield_road_city_centre
+59 golden_house R_area centre
+60 golden_house R_food chinese
+61 golden_house R_location 52.198696,0.12578
+62 golden_house R_phone 01842_753771
+63 golden_house R_pricerange cheap
+64 golden_house R_postcode cb21eg
+65 hakka R_address milton_road_chesterton
+66 hakka R_area north
+67 hakka R_food chinese
+68 hakka R_location 52.215311,0.12593
+69 hakka R_phone 01223_568988
+70 hakka R_pricerange expensive
+71 hakka R_postcode cb41jy
+72 golden_wok R_address 191_histon_road_chesterton
+73 golden_wok R_area north
+74 golden_wok R_food chinese
+75 golden_wok R_location 52.220757,0.111564
+76 golden_wok R_phone 01223_350688
+77 golden_wok R_pricerange moderate
+78 golden_wok R_postcode cb43hl
+79 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+80 shanghai_family_restaurant R_area centre
+81 shanghai_family_restaurant R_food chinese
+82 shanghai_family_restaurant R_location 52.206111,0.132969
+83 shanghai_family_restaurant R_phone 01223_301761
+84 shanghai_family_restaurant R_pricerange moderate
+85 shanghai_family_restaurant R_postcode cb11dg
+86 peking_restaurant R_address 10_homerton_street_city_centre
+87 peking_restaurant R_area south
+88 peking_restaurant R_food chinese
+89 peking_restaurant R_location 52.189484,0.135465
+90 peking_restaurant R_phone 01223_354755
+91 peking_restaurant R_pricerange expensive
+92 peking_restaurant R_postcode cb28nx
+93 the_hotpot R_address 66_chesterton_road_chesterton
+94 the_hotpot R_area north
+95 the_hotpot R_food chinese
+96 the_hotpot R_location 52.214531,0.127298
+97 the_hotpot R_phone 01223_366552
+98 the_hotpot R_pricerange expensive
+99 the_hotpot R_postcode cb41ep
+100 tang_chinese R_address napier_street_city_centre
+101 tang_chinese R_area centre
+102 tang_chinese R_food chinese
+103 tang_chinese R_location 52.207702,0.133982
+104 tang_chinese R_phone 01223_357187
+105 tang_chinese R_pricerange expensive
+106 tang_chinese R_postcode cb11hr
+107 hk_fusion R_address 21_burleigh_street_city_centre
+108 hk_fusion R_area centre
+109 hk_fusion R_food chinese
+110 hk_fusion R_location 52.206111,0.132969
+111 hk_fusion R_phone 01223_355909
+112 hk_fusion R_pricerange expensive
+113 hk_fusion R_postcode cb11dg
+114 sesame_restaurant_and_bar R_address 17_hills_road_city_centre
+115 sesame_restaurant_and_bar R_area centre
+116 sesame_restaurant_and_bar R_food chinese
+117 sesame_restaurant_and_bar R_location 52.197154,0.129511
+118 sesame_restaurant_and_bar R_phone 01223_358899
+119 sesame_restaurant_and_bar R_pricerange expensive
+120 sesame_restaurant_and_bar R_postcode cb21nw
+121 <SILENCE>	there is charlie_chan in city centre
+122 what is the address and phone number of charlie_chan ?	the address is regent_street_city_centre , postcode cb21db , and the phone number is 01223_361763
+123 thank you . that is all the info that i needed . good bye .	thank you .
+
+1 i 'm looking for a restaurant that serves international food .	there are several restaurants serving international food . would you prefer one in the centre or east part of town ?
+2 i do n't care .	there are three restaurants serving international food . what price range would you like ?
+
+1 i am looking for a moderate priced restaurant in the south part of town . could you recommend me three restaurants ?	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	pizza_hut_cherry_hinton is a moderately priced italian restaurant in the south of town , and restaurant_alimentum is a moderately priced modern_european restaurant in the south of town .
+17 is there a third restaurant ?	there is not .
+18 ok. can you give me the address and phone number for restaurant_alimentum ?	their phone number is 01223413000 and they are located at 152-154 hills road .
+19 thanks much ! bye !	thank you , goodbye .
+
+1 hello , i am looking for a moderately priced restaurant on the east part of town .	do you have a preference on type of food ?
+2 i do n't care .	there are three venues to choose from
+3 ok , what are they ?	api_call dontcare east moderate
+4 curry_prince R_address 451_newmarket_road_fen_ditton
+5 curry_prince R_area east
+6 curry_prince R_food indian
+7 curry_prince R_location 52.213072,0.149771
+8 curry_prince R_phone 01223_566388
+9 curry_prince R_pricerange moderate
+10 curry_prince R_postcode cb58jj
+11 pizza_hut_fen_ditton R_address cambridge_retail_park_newmarket_road_fen_ditton
+12 pizza_hut_fen_ditton R_area east
+13 pizza_hut_fen_ditton R_food italian
+14 pizza_hut_fen_ditton R_location 52.209742,0.146975
+15 pizza_hut_fen_ditton R_phone 01223_323737
+16 pizza_hut_fen_ditton R_pricerange moderate
+17 pizza_hut_fen_ditton R_postcode cb58wr
+18 rajmahal R_address 7_barnwell_road_fen_ditton
+19 rajmahal R_area east
+20 rajmahal R_food indian
+21 rajmahal R_location 52.211144,0.163247
+22 rajmahal R_phone 01223_244955
+23 rajmahal R_pricerange moderate
+24 rajmahal R_postcode cb58rg
+25 <SILENCE>	curry_prince and rajmahal which both serve indian food . and pizza_hut_fen_ditton serves italian food .
+26 could i get the address of one of them ?	absolutely . curry_prince 's address is 451_newmarket_road_fen_ditton . is there anything else i can do for you ?
+27 thank you , goodbye .	thank you for using the cambridge restaurant system . good bye .
+
+1 i am looking for a restaurant in the west side of town .	api_call dontcare west dontcare
+2 tandoori_palace R_address 68_histon_road_chesterton
+3 tandoori_palace R_area west
+4 tandoori_palace R_food indian
+5 tandoori_palace R_location 52.215486,0.111167
+6 tandoori_palace R_phone 01223_506055
+7 tandoori_palace R_pricerange expensive
+8 tandoori_palace R_postcode cb43le
+9 prezzo R_address 21_-_24_northampton_road
+10 prezzo R_area west
+11 prezzo R_food italian
+12 prezzo R_location 52.21032,0.11367
+13 prezzo R_phone 01799_521260
+14 prezzo R_pricerange moderate
+15 prezzo R_postcode cb30ad
+16 cocum R_address 71_castle_street_city_centre
+17 cocum R_area west
+18 cocum R_food indian
+19 cocum R_location 52.212444,0.112823
+20 cocum R_phone 01223_366668
+21 cocum R_pricerange expensive
+22 cocum R_postcode cb30ah
+23 rice_boat R_address 37_newnham_road_newnham
+24 rice_boat R_area west
+25 rice_boat R_food indian
+26 rice_boat R_location 52.199012,0.113196
+27 rice_boat R_phone 01223_302800
+28 rice_boat R_pricerange expensive
+29 rice_boat R_postcode cb39ey
+30 maharajah_tandoori_restaurant R_address 41518_castle_street_city_centre
+31 maharajah_tandoori_restaurant R_area west
+32 maharajah_tandoori_restaurant R_food indian
+33 maharajah_tandoori_restaurant R_location 52.212444,0.112823
+34 maharajah_tandoori_restaurant R_phone 01223_358399
+35 maharajah_tandoori_restaurant R_pricerange expensive
+36 maharajah_tandoori_restaurant R_postcode cb30ah
+37 thanh_binh R_address 17_magdalene_street_city_centre
+38 thanh_binh R_area west
+39 thanh_binh R_food vietnamese
+40 thanh_binh R_location 52.210226,0.115646
+41 thanh_binh R_phone 01223_362456
+42 thanh_binh R_pricerange cheap
+43 thanh_binh R_postcode cb30af
+44 la_margherita R_address 15_magdalene_street_city_centre
+45 la_margherita R_area west
+46 la_margherita R_food italian
+47 la_margherita R_location 52.210226,0.115646
+48 la_margherita R_phone 01223_315232
+49 la_margherita R_pricerange cheap
+50 la_margherita R_postcode cb30af
+51 saint_johns_chop_house R_address 21_-_24_northampton_street
+52 saint_johns_chop_house R_area west
+53 saint_johns_chop_house R_food british
+54 saint_johns_chop_house R_location 52.21031,0.11381
+55 saint_johns_chop_house R_phone 01223_353110
+56 saint_johns_chop_house R_pricerange moderate
+57 saint_johns_chop_house R_postcode cb30ad
+58 meghna R_address 205_victoria_road_chesterton
+59 meghna R_area west
+60 meghna R_food indian
+61 meghna R_location 52.215077,0.112421
+62 meghna R_phone 01223_727410
+63 meghna R_pricerange moderate
+64 meghna R_postcode cb43lf
+65 sala_thong R_address 35_newnham_road_newnham
+66 sala_thong R_area west
+67 sala_thong R_food thai
+68 sala_thong R_location 52.199012,0.113196
+69 sala_thong R_phone 01223_323178
+70 sala_thong R_pricerange expensive
+71 sala_thong R_postcode cb39ey
+72 graffiti R_address hotel_felix_whitehouse_lane_huntingdon_road
+73 graffiti R_area west
+74 graffiti R_food british
+75 graffiti R_location 52.22414,0.09194
+76 graffiti R_phone 01223_277977
+77 graffiti R_pricerange expensive
+78 graffiti R_postcode cb30lx
+79 india_house R_address 31_newnham_road_newnham
+80 india_house R_area west
+81 india_house R_food indian
+82 india_house R_location 52.199012,0.113196
+83 india_house R_phone 01223_461661
+84 india_house R_pricerange expensive
+85 india_house R_postcode cb39ey
+86 cambridge_lodge_restaurant R_address cambridge_lodge_hotel_139_huntingdon_road_city_centre
+87 cambridge_lodge_restaurant R_area west
+88 cambridge_lodge_restaurant R_food european
+89 cambridge_lodge_restaurant R_location 52.217736,0.102505
+90 cambridge_lodge_restaurant R_phone 01223_355166
+91 cambridge_lodge_restaurant R_pricerange expensive
+92 cambridge_lodge_restaurant R_postcode cb30dq
+93 travellers_rest R_address huntingdon_road_city_centre
+94 travellers_rest R_area west
+95 travellers_rest R_food british
+96 travellers_rest R_location 52.214201,0.108588
+97 travellers_rest R_phone 01223_276182
+98 travellers_rest R_pricerange expensive
+99 travellers_rest R_postcode cb30df
+100 <SILENCE>	cambridge_lodge_restaurant is a nice restaurant in the west part of town
+101 how about a moderately priced russian restaurant ? i do n't care what part of town it 's in .	i am sorry , there is no moderately priced russian restaurant . would you like me to check for a restaurant serving a different type of food ?
+102 how about chinese food ?	i 'm sorry , there are no chinese restaurants listed in the west part of town in the moderate price range . would you like to try something else ?
+103 i would like a moderately priced chinese restaurant any where in town .	jinling_noodle_bar , shanghai_family_restaurant , and lan_hong_house are in the centre . golden_wok is in the north .
+104 what is the phone number ?	the phone number is 01223_566188 .
+105 which part of town it is in ?	it is located in the centre part of town
+106 thank you goodbye .	thank you and good bye .
+
+1 i am looking for a moderately priced restaurant that is in the east part of town .	api_call dontcare east moderate
+2 curry_prince R_address 451_newmarket_road_fen_ditton
+3 curry_prince R_area east
+4 curry_prince R_food indian
+5 curry_prince R_location 52.213072,0.149771
+6 curry_prince R_phone 01223_566388
+7 curry_prince R_pricerange moderate
+8 curry_prince R_postcode cb58jj
+9 pizza_hut_fen_ditton R_address cambridge_retail_park_newmarket_road_fen_ditton
+10 pizza_hut_fen_ditton R_area east
+11 pizza_hut_fen_ditton R_food italian
+12 pizza_hut_fen_ditton R_location 52.209742,0.146975
+13 pizza_hut_fen_ditton R_phone 01223_323737
+14 pizza_hut_fen_ditton R_pricerange moderate
+15 pizza_hut_fen_ditton R_postcode cb58wr
+16 rajmahal R_address 7_barnwell_road_fen_ditton
+17 rajmahal R_area east
+18 rajmahal R_food indian
+19 rajmahal R_location 52.211144,0.163247
+20 rajmahal R_phone 01223_244955
+21 rajmahal R_pricerange moderate
+22 rajmahal R_postcode cb58rg
+23 <SILENCE>	curry_prince is a moderately priced restaurant serving indian food and located in the east part of town .
+24 can you give me the address and phone number ?	their address is 451_newmarket_road_fen_ditton and their phone number is 01223_566388
+25 wonderful . thank you for your help .	thank you for using our system ! have a great day !
+
+1 i need a cheap restuarant . probably in the west part of town	api_call dontcare west cheap
+2 thanh_binh R_address 17_magdalene_street_city_centre
+3 thanh_binh R_area west
+4 thanh_binh R_food vietnamese
+5 thanh_binh R_location 52.210226,0.115646
+6 thanh_binh R_phone 01223_362456
+7 thanh_binh R_pricerange cheap
+8 thanh_binh R_postcode cb30af
+9 la_margherita R_address 15_magdalene_street_city_centre
+10 la_margherita R_area west
+11 la_margherita R_food italian
+12 la_margherita R_location 52.210226,0.115646
+13 la_margherita R_phone 01223_315232
+14 la_margherita R_pricerange cheap
+15 la_margherita R_postcode cb30af
+16 <SILENCE>	how about la_margherita ?
+17 what kind of food do they serve ?	la_margherita is an italian restaurant in the area of west in the cheap price range .
+18 that sounds good . what is their phone number ?	their phone number is 01223_315232 .
+19 that was all i needed . bye now .	goodbye
+
+1 can you find me a cheap spanish restaurant ?	there are two spanish restaurants in total , what price range do you want ?
+2 i am looking for a cheap restaurant .	api_call spanish dontcare cheap
+3 la_raza R_address 4_-_6_rose_crescent
+4 la_raza R_area centre
+5 la_raza R_food spanish
+6 la_raza R_location 52.206098,0.118713
+7 la_raza R_phone 01223_464550
+8 la_raza R_pricerange cheap
+9 la_raza R_postcode cb23ll
+10 <SILENCE>	la_raza is a spanish restaurant , in the cheap price range and in the centre part of town .
+11 can you please give me the address ?	the address is 4_-_6_rose_crescent . can i help you with anything else ?
+12 what is the area ?	la_raza 's area is in the centre part of town
+13 thank you . good bye	thanks for using this system and enjoy your meal ! goodbye !
+
+1 i am looking for irish food that is cheap . i will need their phone number too .	api_call irish dontcare cheap
+2 <SILENCE>	there are no irish restaurants in the cheap price range . would you like something else ?
+3 how about vietnamese food ?	the only restaurant meeting your criteria is thanh_binh in the west . their phone number is 01223_362456 .
+
+1 could you recommend an expensive restaurant that serves mediterranean food ?	sure thing ! where are you located ?
+2 i do n't care what part of town the restaurant is in .	api_call mediterranean dontcare expensive
+3 la_mimosa R_address thompsons_lane_fen_ditton
+4 la_mimosa R_area centre
+5 la_mimosa R_food mediterranean
+6 la_mimosa R_location 52.210012999999996,0.118007
+7 la_mimosa R_phone 01223_362525
+8 la_mimosa R_pricerange expensive
+9 la_mimosa R_postcode cb58aq
+10 shiraz_restaurant R_address 84_regent_street_city_centre
+11 shiraz_restaurant R_area centre
+12 shiraz_restaurant R_food mediterranean
+13 shiraz_restaurant R_location 52.200187,0.126407
+14 shiraz_restaurant R_phone 01223_307581
+15 shiraz_restaurant R_pricerange expensive
+16 shiraz_restaurant R_postcode cb21dp
+17 <SILENCE>	how about shiraz_restaurant ?
+18 what is their phone number and post code ?	their postcode is cb21dp and their phone number is 01223307581 .
+19 thank you , goodbye .	enjoy your meal .
+
+1 i am looking for an expensive restaurant that serves korean food . i would like the address and area , please .	api_call korean dontcare expensive
+2 little_seoul R_address 108_regent_street_city_centre
+3 little_seoul R_area centre
+4 little_seoul R_food korean
+5 little_seoul R_location 52.200187,0.126407
+6 little_seoul R_phone 01223_308681
+7 little_seoul R_pricerange expensive
+8 little_seoul R_postcode cb21dp
+9 <SILENCE>	the little_seoul fits fits your price request . it is located at 108 regent_street_city_centre .
+10 thank you .	thank you good bye
+11 thank you , goodbye .	thank you , goodbye .
+
+1 hello , i am looking for a moderately priced restaurant on the north side of town .	api_call dontcare north moderate
+2 the_nirala R_address 7_milton_road_chesterton
+3 the_nirala R_area north
+4 the_nirala R_food indian
+5 the_nirala R_location 52.215157,0.125015
+6 the_nirala R_phone 01223_360966
+7 the_nirala R_pricerange moderate
+8 the_nirala R_postcode cb41uy
+9 golden_wok R_address 191_histon_road_chesterton
+10 golden_wok R_area north
+11 golden_wok R_food chinese
+12 golden_wok R_location 52.220757,0.111564
+13 golden_wok R_phone 01223_350688
+14 golden_wok R_pricerange moderate
+15 golden_wok R_postcode cb43hl
+16 <SILENCE>	golden_wok is a moderately priced restaurant in the north part of town , that serves chinese food .
+17 what is their address ?	the golden_wok is located at 191_histon_road_chesterton . is there anything else i can help you with today ?
+18 thank you good bye	you 're welcome , goodbye .
+
+1 hello , i am looking for a restaurant on the south side of town that serves unusual food .	sorry but there is no resaurants that fit your request . do you want something different ?
+2 yes , how about indian food	api_call indian south dontcare
+3 taj_tandoori R_address 64_cherry_hinton_road_cherry_hinton
+4 taj_tandoori R_area south
+5 taj_tandoori R_food indian
+6 taj_tandoori R_location 52.188747,0.138941
+7 taj_tandoori R_phone 01223_412299
+8 taj_tandoori R_pricerange expensive
+9 taj_tandoori R_postcode cb17aa
+10 <SILENCE>	i recommend taj_tandoori . it is located in the south part of town .
+11 what is the phone number ?	taj_tandoori 's phone number is 01223_412299 . is there anything else i can do for you ?
+12 no that is all . thank you , goodbye .	thank for calling cambridge restaurant system , goodbye .
+
+1 i want to find a restaurant in any part of town and serves malaysian food .	there are no malaysian restaurants . would you like something different ?
+2 north american , please . give me their price range and their address and phone number , please .	api_call north_american dontcare dontcare
+3 gourmet_burger_kitchen R_address regent_street_city_centre
+4 gourmet_burger_kitchen R_area centre
+5 gourmet_burger_kitchen R_food north_american
+6 gourmet_burger_kitchen R_location 52.20103,0.126023
+7 gourmet_burger_kitchen R_phone 01223_312598
+8 gourmet_burger_kitchen R_pricerange expensive
+9 gourmet_burger_kitchen R_postcode cb21ab
+10 <SILENCE>	gourmet_burger_kitchen is in the expensive price range their phone number is 01223_312598 and their address is regent_street_city_centre
+11 thank you , goodbye	thank you for using cambridge restaurant system . enjoy your meal !
+
+1 i would like a cheap restaurant in the west part of town	there are two cheap restaurants in the west part of town . one is italian and one is vietnamese . which one are you interested in ?
+2 can you give me the telephone number of the vietnamese restaurant ?	api_call vietnamese west cheap
+3 thanh_binh R_address 17_magdalene_street_city_centre
+4 thanh_binh R_area west
+5 thanh_binh R_food vietnamese
+6 thanh_binh R_location 52.210226,0.115646
+7 thanh_binh R_phone 01223_362456
+8 thanh_binh R_pricerange cheap
+9 thanh_binh R_postcode cb30af
+10 <SILENCE>	the vietnamese restaurant 's name is thanh_binh , the phone number is 01223_362456 . can i help you with anything else ?
+11 can you give me the address for thanh_binh as well please ?	thanh_binh is at 17_magdalene_street_city_centre .
+12 thank you . goodbye .	thank you for calling us today . goodbye .
+
+1 i am looking for a restaurant in the south part of town that serves jamaican food .	i 'm sorry but i can not find any jamaican restaurant located in the south .
+2 are there ant jamaican restaurants in any part of town ?	unfortunately there are not . would you be interested in a different cuisine ?
+3 how about portuguese food instead ?	api_call portuguese dontcare dontcare
+4 nandos R_address cambridge_leisure_park_clifton_way
+5 nandos R_area south
+6 nandos R_food portuguese
+7 nandos R_location 52.19017,0.13699
+8 nandos R_phone 01223_327908
+9 nandos R_pricerange cheap
+10 nandos R_postcode cb17dy
+11 nandos_city_centre R_address 33-34_saint_andrews_street
+12 nandos_city_centre R_area centre
+13 nandos_city_centre R_food portuguese
+14 nandos_city_centre R_location 52.203,0.12375
+15 nandos_city_centre R_phone 01223_327908
+16 nandos_city_centre R_pricerange cheap
+17 nandos_city_centre R_postcode cb23ar
+18 <SILENCE>	nandos is located on the south side at cambridge_leisure_park_clifton_way and the phone number is 01223_327908 .
+19 awesome , thank you !	thank you , goodbye .
+
+1 please find me a corsica restaurant .	there are no corsica restaurants . would you like something else ?
+2 are there any gastropub restaurants ?	there are multiple gastropub restaurants . what area are you looking for ?
+3 i do n't care	there are three expensive gastropub restaurants and one moderately priced gastropub . do you have a preference ?
+4 could i have the area , address , and phone number of the moderately priced one please ?	api_call gastropub dontcare moderate
+5 the_cow_pizza_kitchen_and_bar R_address corn_exchange_street
+6 the_cow_pizza_kitchen_and_bar R_area centre
+7 the_cow_pizza_kitchen_and_bar R_food gastropub
+8 the_cow_pizza_kitchen_and_bar R_location 52.204424,0.12046
+9 the_cow_pizza_kitchen_and_bar R_phone 01223_308871
+10 the_cow_pizza_kitchen_and_bar R_pricerange moderate
+11 the_cow_pizza_kitchen_and_bar R_postcode cb23qf
+12 <SILENCE>	the_cow_pizza_kitchen_and_bar is located in the city centre on corn_exchange_street and the number there is 01223_308871 . how else may i help you ?
+13 thank you goodbye .	good day !
+
+1 i am looking for a restaurant in the south part of town that serves portuguese food .	api_call portuguese south dontcare
+2 nandos R_address cambridge_leisure_park_clifton_way
+3 nandos R_area south
+4 nandos R_food portuguese
+5 nandos R_location 52.19017,0.13699
+6 nandos R_phone 01223_327908
+7 nandos R_pricerange cheap
+8 nandos R_postcode cb17dy
+9 <SILENCE>	nandos is a portuguese restaurant in the south part of town .
+10 what is the phone number and address ?	their phone number is 01223_327908 and address is cambridge_leisure_park_clifton_way . will that be all ?
+11 bye .	goodbye .
+
+1 i 'd like an expensive restaurant in the south part of town .	do you have any particular food type in mind ?
+2 mexican	api_call mexican south expensive
+3 chiquito_restaurant_bar R_address 2g_cambridge_leisure_park_cherry_hinton_road_cherry_hinton
+4 chiquito_restaurant_bar R_area south
+5 chiquito_restaurant_bar R_food mexican
+6 chiquito_restaurant_bar R_location 52.190176,0.13699
+7 chiquito_restaurant_bar R_phone 01223_400170
+8 chiquito_restaurant_bar R_pricerange expensive
+9 chiquito_restaurant_bar R_postcode cb17dy
+10 <SILENCE>	chiquito_restaurant_bar is an expensive mexican restaurant in the south area .
+11 what is the phone number and postcode ?	the postcode is c b 1 7 d y and the phone number is 01223_400170 .
+12 thank you ! that is all i needed to know . good night .	goodbye .
+
+1 hello , i am looking for a moderately priced restaurant that serves european food .	would the centre part of town be convenient for you ?
+2 i do n't care .	api_call european dontcare moderate
+3 hotel_du_vin_and_bistro R_address 15_-_19_trumpington_street
+4 hotel_du_vin_and_bistro R_area centre
+5 hotel_du_vin_and_bistro R_food european
+6 hotel_du_vin_and_bistro R_location 52.19934,0.12146
+7 hotel_du_vin_and_bistro R_phone 01223_227330
+8 hotel_du_vin_and_bistro R_pricerange moderate
+9 hotel_du_vin_and_bistro R_postcode cb21qa
+10 galleria R_address 33_bridge_street
+11 galleria R_area centre
+12 galleria R_food european
+13 galleria R_location 52.20951,0.11669
+14 galleria R_phone 01223_362054
+15 galleria R_pricerange moderate
+16 galleria R_postcode cb21uw
+17 <SILENCE>	may i suggest the hotel_du_vin_and_bistro ?
+18 can you please give me the address and phone number ?	their address is 15_-_19_trumpington_street and phone number is 01223_227330 .
+19 thank you !	thank you , goodbye .
+
+1 can you find me something cheap in the south part of town ?	what is the food type you would prefer ?
+2 i do not care about the type of food .	api_call dontcare south cheap
+3 nandos R_address cambridge_leisure_park_clifton_way
+4 nandos R_area south
+5 nandos R_food portuguese
+6 nandos R_location 52.19017,0.13699
+7 nandos R_phone 01223_327908
+8 nandos R_pricerange cheap
+9 nandos R_postcode cb17dy
+10 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+11 the_lucky_star R_area south
+12 the_lucky_star R_food chinese
+13 the_lucky_star R_location 52.190176,0.13699
+14 the_lucky_star R_phone 01223_244277
+15 the_lucky_star R_pricerange cheap
+16 the_lucky_star R_postcode cb17dy
+17 <SILENCE>	nandos is a cheap restaurant in the south part of town , serving portuguese food .
+18 is there anything else ?	the_lucky_star is a cheap price range , south area chinese restaurant
+19 what is the address ?	the_lucky_star is located at cambridge_leisure_park_clifton_way cherry hinton . is there anything else i can help you with ?
+20 thanks , good bye	have a nice day ! goodbye .
+
+1 hello , i am looking for a restaurant that serves african food .	api_call african dontcare dontcare
+2 bedouin R_address 100_mill_road_city_centre
+3 bedouin R_area centre
+4 bedouin R_food african
+5 bedouin R_location 52.199332,0.138395
+6 bedouin R_phone 01223_367660
+7 bedouin R_pricerange expensive
+8 bedouin R_postcode cb12bd
+9 <SILENCE>	there is an african restaurant in the centre area called bedouin .
+10 what are the address and postcode , please ?	bedouin is located at 100 mill_road_city_centre and the postcode is cb12bd . is there anything else i can help with ?
+11 that 's all , thanks !	thank you for using our system . goodbye .
+
+1 what is that european food place 's address ?	api_call european dontcare dontcare
+2 eraina R_address free_school_lane_city_centre
+3 eraina R_area centre
+4 eraina R_food european
+5 eraina R_location 52.203708,0.119082
+6 eraina R_phone 01223_368786
+7 eraina R_pricerange expensive
+8 eraina R_postcode cb23rh
+9 michaelhouse_cafe R_address st._michael's_church_trinity_street_city_centre
+10 michaelhouse_cafe R_area centre
+11 michaelhouse_cafe R_food european
+12 michaelhouse_cafe R_location 52.20608,0.118215
+13 michaelhouse_cafe R_phone 01223_309147
+14 michaelhouse_cafe R_pricerange expensive
+15 michaelhouse_cafe R_postcode cb21su
+16 hotel_du_vin_and_bistro R_address 15_-_19_trumpington_street
+17 hotel_du_vin_and_bistro R_area centre
+18 hotel_du_vin_and_bistro R_food european
+19 hotel_du_vin_and_bistro R_location 52.19934,0.12146
+20 hotel_du_vin_and_bistro R_phone 01223_227330
+21 hotel_du_vin_and_bistro R_pricerange moderate
+22 hotel_du_vin_and_bistro R_postcode cb21qa
+23 galleria R_address 33_bridge_street
+24 galleria R_area centre
+25 galleria R_food european
+26 galleria R_location 52.20951,0.11669
+27 galleria R_phone 01223_362054
+28 galleria R_pricerange moderate
+29 galleria R_postcode cb21uw
+30 cambridge_lodge_restaurant R_address cambridge_lodge_hotel_139_huntingdon_road_city_centre
+31 cambridge_lodge_restaurant R_area west
+32 cambridge_lodge_restaurant R_food european
+33 cambridge_lodge_restaurant R_location 52.217736,0.102505
+34 cambridge_lodge_restaurant R_phone 01223_355166
+35 cambridge_lodge_restaurant R_pricerange expensive
+36 cambridge_lodge_restaurant R_postcode cb30dq
+37 <SILENCE>	i found several places serving european food . do you have a preference as to the location ?
+38 no , any part of town is fine .	cambridge_lodge_restaurant serves european food and is located at cambridge_lodge_hotel_139_huntingdon_road_city_centre .
+39 thank you , goodbye .	have a great day and enjoy your food .
+
+1 can you help me find a russian restaurant ?	i 'm sorry , there are russian restaurants . do you have a secondary choice ?
+2 yes , what about european type food ?	please wait a moment while i check for european restaurants for you
+3 if you find a european restaurant , i would also like the address and phone number .	api_call european dontcare dontcare
+4 eraina R_address free_school_lane_city_centre
+5 eraina R_area centre
+6 eraina R_food european
+7 eraina R_location 52.203708,0.119082
+8 eraina R_phone 01223_368786
+9 eraina R_pricerange expensive
+10 eraina R_postcode cb23rh
+11 michaelhouse_cafe R_address st._michael's_church_trinity_street_city_centre
+12 michaelhouse_cafe R_area centre
+13 michaelhouse_cafe R_food european
+14 michaelhouse_cafe R_location 52.20608,0.118215
+15 michaelhouse_cafe R_phone 01223_309147
+16 michaelhouse_cafe R_pricerange expensive
+17 michaelhouse_cafe R_postcode cb21su
+18 hotel_du_vin_and_bistro R_address 15_-_19_trumpington_street
+19 hotel_du_vin_and_bistro R_area centre
+20 hotel_du_vin_and_bistro R_food european
+21 hotel_du_vin_and_bistro R_location 52.19934,0.12146
+22 hotel_du_vin_and_bistro R_phone 01223_227330
+23 hotel_du_vin_and_bistro R_pricerange moderate
+24 hotel_du_vin_and_bistro R_postcode cb21qa
+25 galleria R_address 33_bridge_street
+26 galleria R_area centre
+27 galleria R_food european
+28 galleria R_location 52.20951,0.11669
+29 galleria R_phone 01223_362054
+30 galleria R_pricerange moderate
+31 galleria R_postcode cb21uw
+32 cambridge_lodge_restaurant R_address cambridge_lodge_hotel_139_huntingdon_road_city_centre
+33 cambridge_lodge_restaurant R_area west
+34 cambridge_lodge_restaurant R_food european
+35 cambridge_lodge_restaurant R_location 52.217736,0.102505
+36 cambridge_lodge_restaurant R_phone 01223_355166
+37 cambridge_lodge_restaurant R_pricerange expensive
+38 cambridge_lodge_restaurant R_postcode cb30dq
+39 <SILENCE>	cambridge_lodge_restaurant serves european food , their phone number is 01223_355166 and address is cambridge_lodge_hotel_139_huntingdon_road_city_centre
+40 thank you . good bye .	thank you good bye
+
+1 i want a restaurant in the north part of town .	api_call dontcare north dontcare
+2 da_vinci_pizzeria R_address 20_milton_road_chesterton
+3 da_vinci_pizzeria R_area north
+4 da_vinci_pizzeria R_food italian
+5 da_vinci_pizzeria R_location 52.215311,0.12593
+6 da_vinci_pizzeria R_phone 01223_351707
+7 da_vinci_pizzeria R_pricerange cheap
+8 da_vinci_pizzeria R_postcode cb41jy
+9 restaurant_two_two R_address 22_chesterton_road_chesterton
+10 restaurant_two_two R_area north
+11 restaurant_two_two R_food french
+12 restaurant_two_two R_location 52.213742,0.1242
+13 restaurant_two_two R_phone 01223_351880
+14 restaurant_two_two R_pricerange expensive
+15 restaurant_two_two R_postcode cb43ax
+16 the_nirala R_address 7_milton_road_chesterton
+17 the_nirala R_area north
+18 the_nirala R_food indian
+19 the_nirala R_location 52.215157,0.125015
+20 the_nirala R_phone 01223_360966
+21 the_nirala R_pricerange moderate
+22 the_nirala R_postcode cb41uy
+23 royal_spice R_address victoria_avenue_chesterton
+24 royal_spice R_area north
+25 royal_spice R_food indian
+26 royal_spice R_location 52.213853,0.125509
+27 royal_spice R_phone 01733_553355
+28 royal_spice R_pricerange cheap
+29 royal_spice R_postcode cb41eh
+30 hakka R_address milton_road_chesterton
+31 hakka R_area north
+32 hakka R_food chinese
+33 hakka R_location 52.215311,0.12593
+34 hakka R_phone 01223_568988
+35 hakka R_pricerange expensive
+36 hakka R_postcode cb41jy
+37 golden_wok R_address 191_histon_road_chesterton
+38 golden_wok R_area north
+39 golden_wok R_food chinese
+40 golden_wok R_location 52.220757,0.111564
+41 golden_wok R_phone 01223_350688
+42 golden_wok R_pricerange moderate
+43 golden_wok R_postcode cb43hl
+44 city_stop_restaurant R_address cambridge_city_football_club_milton_road_chesterton
+45 city_stop_restaurant R_area north
+46 city_stop_restaurant R_location 52.215157,0.125015
+47 city_stop_restaurant R_phone 01223_363270
+48 city_stop_restaurant R_pricerange expensive
+49 city_stop_restaurant R_postcode cb41uy
+50 saigon_city R_address 169_high_street_chesterton_chesterton
+51 saigon_city R_area north
+52 saigon_city R_food asian_oriental
+53 saigon_city R_location 52.218164,0.143209
+54 saigon_city R_phone 01223_356555
+55 saigon_city R_pricerange expensive
+56 saigon_city R_postcode cb41nl
+57 the_hotpot R_address 66_chesterton_road_chesterton
+58 the_hotpot R_area north
+59 the_hotpot R_food chinese
+60 the_hotpot R_location 52.214531,0.127298
+61 the_hotpot R_phone 01223_366552
+62 the_hotpot R_pricerange expensive
+63 the_hotpot R_postcode cb41ep
+64 <SILENCE>	the city_stop_restaurant is in the north part of town . the golden_wok is also located in the north part of town .
+65 i want a restaurant that is moderately priced .	golden_wok is located in the north part of town , and is moderately priced .
+66 what is their address and phone number ?	the address for golden_wok is 191_histon_road_chesterton and the phone number is 01223_350688 .
+67 thank you , goodbye .	goodbye .
+
+1 can you find me a restaurant in the north part of the city ?	there are 9 matching records in the north , what price range do you want ?
+2 i do n't care .	is there a certain type of food that you would like ?
+3 yes , i would like world food .	i am sorry , i ca n't find any restaurant serves world food in the north . is there another type of food or area you might be interested in today ?
+4 maybe some indian food ?	great hit
+
+1 i am looking for a restaurant in the moderate price range that serves lebanese food .	api_call lebanese dontcare moderate
+2 ali_baba R_address 59_hills_road_city_centre
+3 ali_baba R_area centre
+4 ali_baba R_food lebanese
+5 ali_baba R_location 52.195416,0.13114
+6 ali_baba R_phone 01462_432565
+7 ali_baba R_pricerange moderate
+8 ali_baba R_postcode cb21nt
+9 <SILENCE>	the ali_baba restaraunt serves lebanese food and is in the moderate price range .
+10 tell me the address and phone number of ali_baba restaraunt .	their address is 59_hills_road_city_centre and their phone number is 01462_432565 .
+11 thank you bye bye	thank you for using the cambridge restaurant phone system . enjoy your meal !
+
+1 i want some mexican food .	api_call mexican dontcare dontcare
+2 chiquito_restaurant_bar R_address 2g_cambridge_leisure_park_cherry_hinton_road_cherry_hinton
+3 chiquito_restaurant_bar R_area south
+4 chiquito_restaurant_bar R_food mexican
+5 chiquito_restaurant_bar R_location 52.190176,0.13699
+6 chiquito_restaurant_bar R_phone 01223_400170
+7 chiquito_restaurant_bar R_pricerange expensive
+8 chiquito_restaurant_bar R_postcode cb17dy
+9 <SILENCE>	the only listing for mexican food is chiquito_restaurant_bar . how else may i assist you ?
+10 i want a restaurant in the centre and serves asian oriental food ? what is the phone number ?	we have four asian_oriental restaurants in centre . what price range do you prefer ?
+11 i do n't care .	dojo_noodle_bar serves asian_oriental food and is located in the centre of town . the price range is cheap .
+12 what is the phone number ?	the phone number for dojo_noodle_bar is 01223_363471 . would you like any other information ?
+13 no , thank you , that 's all i need . thank you and goodbye !	you 're welcome . goodbye .
+
+1 i want to find a cheap restaurant and serves australasian food .	there are no restaurants serving australasian food . would you like something else ?
+2 portuguese food	api_call portuguese dontcare cheap
+3 nandos R_address cambridge_leisure_park_clifton_way
+4 nandos R_area south
+5 nandos R_food portuguese
+6 nandos R_location 52.19017,0.13699
+7 nandos R_phone 01223_327908
+8 nandos R_pricerange cheap
+9 nandos R_postcode cb17dy
+10 nandos_city_centre R_address 33-34_saint_andrews_street
+11 nandos_city_centre R_area centre
+12 nandos_city_centre R_food portuguese
+13 nandos_city_centre R_location 52.203,0.12375
+14 nandos_city_centre R_phone 01223_327908
+15 nandos_city_centre R_pricerange cheap
+16 nandos_city_centre R_postcode cb23ar
+17 <SILENCE>	there are two restaurants available , nandos and nandos_city_centre . one is in the south and one is in the centre .
+18 i do n't care	how about nandos ? it is a cheap restraunt on cambridge_leisure_park_clifton_way
+19 sounds great , what is their address ?	the address is cambridge_leisure_park_clifton_way , cb17dy .
+20 thank you and goodbye !	goodbye .
+
+1 i want to find a moderately priced restaurant serving european food .	api_call european dontcare moderate
+2 hotel_du_vin_and_bistro R_address 15_-_19_trumpington_street
+3 hotel_du_vin_and_bistro R_area centre
+4 hotel_du_vin_and_bistro R_food european
+5 hotel_du_vin_and_bistro R_location 52.19934,0.12146
+6 hotel_du_vin_and_bistro R_phone 01223_227330
+7 hotel_du_vin_and_bistro R_pricerange moderate
+8 hotel_du_vin_and_bistro R_postcode cb21qa
+9 galleria R_address 33_bridge_street
+10 galleria R_area centre
+11 galleria R_food european
+12 galleria R_location 52.20951,0.11669
+13 galleria R_phone 01223_362054
+14 galleria R_pricerange moderate
+15 galleria R_postcode cb21uw
+16 <SILENCE>	de_luca_cucina_and_bar is in the centre part of town and in the moderate price range .
+17 is there anything else ? give me the address and postcode please .	there is also the cambridge_lodge_restaurant also has expensive european food in the centre area at cambridge_lodge_hotel_139_huntingdon_road_city_centre postal code cb30dq
+18 what is the phone number ?	their phone number is 01223_355166 .
+19 ok thank you good bye	thank you . good bye
+20 thank you goodbye .	you 're welcome . bye .
+
+1 i would like a restaurant in the north part of town that serves french food	api_call french north dontcare
+2 restaurant_two_two R_address 22_chesterton_road_chesterton
+3 restaurant_two_two R_area north
+4 restaurant_two_two R_food french
+5 restaurant_two_two R_location 52.213742,0.1242
+6 restaurant_two_two R_phone 01223_351880
+7 restaurant_two_two R_pricerange expensive
+8 restaurant_two_two R_postcode cb43ax
+9 <SILENCE>	there is restaurant_two_two in the the north side of town that serves french food .
+10 what is their address , number , and price range ?	restaurant_two_two is in the expensive price range . their phone number is 01223_351880 and they are located at 22_chesterton_road_chesterton . would you like anything else ?
+11 no , that takes care of it . thank you for your help .	thank you for using our system . good bye
+
+1 i am looking for a moderately priced restaurant in the south part of town .	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	pizza_hut_cherry_hinton is a moderately priced restaurant that 's in the south part of town .
+17 i dont want it . show me another one .	the restaurant_alimentum is a moderately priced restaurant in the south part of town .
+18 what is the address please ?	152_-_154_hills_road
+19 thanks . could i get the phone number , too ?	restaurant_alimentum 's phone number is 01223_413000
+20 thank you , goodbye	you are welcome goodbye
+
+1 i 'm looking for a moderately priced restaurant in the east part of town .	api_call dontcare east moderate
+2 curry_prince R_address 451_newmarket_road_fen_ditton
+3 curry_prince R_area east
+4 curry_prince R_food indian
+5 curry_prince R_location 52.213072,0.149771
+6 curry_prince R_phone 01223_566388
+7 curry_prince R_pricerange moderate
+8 curry_prince R_postcode cb58jj
+9 pizza_hut_fen_ditton R_address cambridge_retail_park_newmarket_road_fen_ditton
+10 pizza_hut_fen_ditton R_area east
+11 pizza_hut_fen_ditton R_food italian
+12 pizza_hut_fen_ditton R_location 52.209742,0.146975
+13 pizza_hut_fen_ditton R_phone 01223_323737
+14 pizza_hut_fen_ditton R_pricerange moderate
+15 pizza_hut_fen_ditton R_postcode cb58wr
+16 rajmahal R_address 7_barnwell_road_fen_ditton
+17 rajmahal R_area east
+18 rajmahal R_food indian
+19 rajmahal R_location 52.211144,0.163247
+20 rajmahal R_phone 01223_244955
+21 rajmahal R_pricerange moderate
+22 rajmahal R_postcode cb58rg
+23 <SILENCE>	i would recommend you curry_prince , an indian place in the east with moderate price range .
+24 is there anything else you would recommend ? can i have the address and type of food for it ?	would you prefer a different type of food ?
+25 yes . what other restaurants did you find ?	there are also pizza_hut_fen_ditton , which is italian , and rajmahal which is indian .
+26 can i have the address of pizza_hut_fen_ditton .	the address of them is cambridge_retail_park_newmarket_road_fen_ditton
+27 thank you good bye	thank you good bye .
+
+1 hi , i want a moderately priced restaurant located in the south part of town .	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	pizza_hut_cherry_hinton is in the south part of town and in the moderate price range . would you like their location ?
+17 address and postcode please	their address is g4_cambridge_leisure_park_clifton_way_cherry_hinton and their postcode is cb17dy . is there anything else i can do for you today ?
+18 no , thank you , goodbye .	enjoy your meal !
+
+1 hello , i am looking for an expensive restaurant that serves fusion food .	i 'm sorry , there are no fusion restaurants listed in the cheap price range . would you like to try something else ?
+2 how about mediterranean food ?	api_call mediterranean dontcare expensive
+3 la_mimosa R_address thompsons_lane_fen_ditton
+4 la_mimosa R_area centre
+5 la_mimosa R_food mediterranean
+6 la_mimosa R_location 52.210012999999996,0.118007
+7 la_mimosa R_phone 01223_362525
+8 la_mimosa R_pricerange expensive
+9 la_mimosa R_postcode cb58aq
+10 shiraz_restaurant R_address 84_regent_street_city_centre
+11 shiraz_restaurant R_area centre
+12 shiraz_restaurant R_food mediterranean
+13 shiraz_restaurant R_location 52.200187,0.126407
+14 shiraz_restaurant R_phone 01223_307581
+15 shiraz_restaurant R_pricerange expensive
+16 shiraz_restaurant R_postcode cb21dp
+17 <SILENCE>	there are two restaurants serving mediterranean food in the expensive price range . your options are la_mimosa or shiraz_restaurant .
+18 what is the address and phone number of one of them ?	la_mimosa 's address is thompsons_lane_fen_ditton , phone number 01223362525 .
+19 thank you goodbye .	you 're welcome , goodbye .
+
+1 please suggest me a venetian restaurant in the moderate price range .	i 'm sorry . there is not a restaurant meeting those criteria . would you like to try something else ?
+2 ok , how about a restaurant that serves gastropub type of food ?	api_call gastropub dontcare moderate
+3 the_cow_pizza_kitchen_and_bar R_address corn_exchange_street
+4 the_cow_pizza_kitchen_and_bar R_area centre
+5 the_cow_pizza_kitchen_and_bar R_food gastropub
+6 the_cow_pizza_kitchen_and_bar R_location 52.204424,0.12046
+7 the_cow_pizza_kitchen_and_bar R_phone 01223_308871
+8 the_cow_pizza_kitchen_and_bar R_pricerange moderate
+9 the_cow_pizza_kitchen_and_bar R_postcode cb23qf
+10 <SILENCE>	there is one moderately priced gastropub in the town centre called the_cow_pizza_kitchen_and_bar .
+11 great ! can you please give me the address and phone number ?	the phone and address are 01223_308871 corn_exchange_street
+12 thank you , goodbye .	have a nice day ! thank you , goodbye .
+
+1 can you recommend a restaurant that serves french food ? not too expensive , please .	there are no french restaurants matching your requests . can i help you with something else ?
+2 how about a french restaurant in any price range ?	api_call french dontcare dontcare
+3 restaurant_two_two R_address 22_chesterton_road_chesterton
+4 restaurant_two_two R_area north
+5 restaurant_two_two R_food french
+6 restaurant_two_two R_location 52.213742,0.1242
+7 restaurant_two_two R_phone 01223_351880
+8 restaurant_two_two R_pricerange expensive
+9 restaurant_two_two R_postcode cb43ax
+10 cote R_address bridge_street_city_centre
+11 cote R_area centre
+12 cote R_food french
+13 cote R_location 52.209028,0.118296
+14 cote R_phone 01223_311053
+15 cote R_pricerange expensive
+16 cote R_postcode cb21uf
+17 <SILENCE>	cote is a french restaurant in the city centre in the expensive price range .
+18 can you please give me their address and phone number	cote 's phone number is 01223_311053 and they are located at bridge_street_city_centre . is there anything else i can help you with today ?
+19 thank you . that is all i needed to know . bye bye !	you 're welcome . good bye .
+
+1 a french restaurant in the centre part of town . please give me address and phone number .	api_call french centre dontcare
+2 cote R_address bridge_street_city_centre
+3 cote R_area centre
+4 cote R_food french
+5 cote R_location 52.209028,0.118296
+6 cote R_phone 01223_311053
+7 cote R_pricerange expensive
+8 cote R_postcode cb21uf
+9 <SILENCE>	cote can be reached at 01223311053 and is at bridge_street_city_centre . do you require any additional information ?
+10 thank you goodbye .	goodbye .
+
+1 i am looking for a cheap restaurant that is in the north part of town .	what kind of food would like ?
+2 any	api_call dontcare north cheap
+3 da_vinci_pizzeria R_address 20_milton_road_chesterton
+4 da_vinci_pizzeria R_area north
+5 da_vinci_pizzeria R_food italian
+6 da_vinci_pizzeria R_location 52.215311,0.12593
+7 da_vinci_pizzeria R_phone 01223_351707
+8 da_vinci_pizzeria R_pricerange cheap
+9 da_vinci_pizzeria R_postcode cb41jy
+10 royal_spice R_address victoria_avenue_chesterton
+11 royal_spice R_area north
+12 royal_spice R_food indian
+13 royal_spice R_location 52.213853,0.125509
+14 royal_spice R_phone 01733_553355
+15 royal_spice R_pricerange cheap
+16 royal_spice R_postcode cb41eh
+17 <SILENCE>	da_vinci_pizzeria serves italian food in the cheap price range and is in the north part of town .
+18 are there any other options ?	royal_spice serves indian food in the cheap price range and is in the north part of town .
+19 that sounds great . may i have their address please ?	royal_spice 's address is victoria_avenue_chesterton
+20 thank you very much , bye bye	enjoy !
+
+1 i am looking for a restaurant in the west part of town that is in the cheap price range .	there are two restaurants in the west part of town . what type of food are you interested in ?
+2 i do n't care . any type of food will be fine .	api_call dontcare west cheap
+3 thanh_binh R_address 17_magdalene_street_city_centre
+4 thanh_binh R_area west
+5 thanh_binh R_food vietnamese
+6 thanh_binh R_location 52.210226,0.115646
+7 thanh_binh R_phone 01223_362456
+8 thanh_binh R_pricerange cheap
+9 thanh_binh R_postcode cb30af
+10 la_margherita R_address 15_magdalene_street_city_centre
+11 la_margherita R_area west
+12 la_margherita R_food italian
+13 la_margherita R_location 52.210226,0.115646
+14 la_margherita R_phone 01223_315232
+15 la_margherita R_pricerange cheap
+16 la_margherita R_postcode cb30af
+17 <SILENCE>	there is prezzo which is italian at 21_-_24_northampton_road , phone number is 01799_521260 .
+
+1 i would like a cheap restaurant that serves mediterranean food	api_call mediterranean dontcare cheap
+2 the_gardenia R_address 2_rose_crescent_city_centre
+3 the_gardenia R_area centre
+4 the_gardenia R_food mediterranean
+5 the_gardenia R_location 52.206098,0.118713
+6 the_gardenia R_phone 01223_356354
+7 the_gardenia R_pricerange cheap
+8 the_gardenia R_postcode cb23ll
+9 <SILENCE>	the_gardenia is a cheap restaurant that serves mediterranean food . is the centre part of town okay for you ?
+10 yes , thank you . could you tell me the address and phone number of that restaurant ?	certainly , the_gardenia is located at 2_rose_crescent_city_centre and can be reached at 01223_356354 . may i be of further assistance ?
+11 the_gardenia sounds good . thanks .	good bye .
+
+1 i want to find a cheap restaurant in the north part of town .	what food type are you looking for ?
+2 any type of restaurant will be fine .	api_call dontcare north cheap
+3 da_vinci_pizzeria R_address 20_milton_road_chesterton
+4 da_vinci_pizzeria R_area north
+5 da_vinci_pizzeria R_food italian
+6 da_vinci_pizzeria R_location 52.215311,0.12593
+7 da_vinci_pizzeria R_phone 01223_351707
+8 da_vinci_pizzeria R_pricerange cheap
+9 da_vinci_pizzeria R_postcode cb41jy
+10 royal_spice R_address victoria_avenue_chesterton
+11 royal_spice R_area north
+12 royal_spice R_food indian
+13 royal_spice R_location 52.213853,0.125509
+14 royal_spice R_phone 01733_553355
+15 royal_spice R_pricerange cheap
+16 royal_spice R_postcode cb41eh
+17 <SILENCE>	da_vinci_pizzeria is located in the north part of town and in the cheap price range .
+
+1 i want to visit an expensive restaurant in the south part of town . i need the address , phone number , and type of food .	api_call dontcare south expensive
+2 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+3 the_good_luck_chinese_food_takeaway R_area south
+4 the_good_luck_chinese_food_takeaway R_food chinese
+5 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+6 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+7 the_good_luck_chinese_food_takeaway R_pricerange expensive
+8 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+9 taj_tandoori R_address 64_cherry_hinton_road_cherry_hinton
+10 taj_tandoori R_area south
+11 taj_tandoori R_food indian
+12 taj_tandoori R_location 52.188747,0.138941
+13 taj_tandoori R_phone 01223_412299
+14 taj_tandoori R_pricerange expensive
+15 taj_tandoori R_postcode cb17aa
+16 chiquito_restaurant_bar R_address 2g_cambridge_leisure_park_cherry_hinton_road_cherry_hinton
+17 chiquito_restaurant_bar R_area south
+18 chiquito_restaurant_bar R_food mexican
+19 chiquito_restaurant_bar R_location 52.190176,0.13699
+20 chiquito_restaurant_bar R_phone 01223_400170
+21 chiquito_restaurant_bar R_pricerange expensive
+22 chiquito_restaurant_bar R_postcode cb17dy
+23 peking_restaurant R_address 10_homerton_street_city_centre
+24 peking_restaurant R_area south
+25 peking_restaurant R_food chinese
+26 peking_restaurant R_location 52.189484,0.135465
+27 peking_restaurant R_phone 01223_354755
+28 peking_restaurant R_pricerange expensive
+29 peking_restaurant R_postcode cb28nx
+30 frankie_and_bennys R_address cambridge_leisure_park_clifton_way_cherry_hinton
+31 frankie_and_bennys R_area south
+32 frankie_and_bennys R_food italian
+33 frankie_and_bennys R_location 52.190176,0.13699
+34 frankie_and_bennys R_phone 01223_412430
+35 frankie_and_bennys R_pricerange expensive
+36 frankie_and_bennys R_postcode cb17dy
+37 <SILENCE>	there are five expensive restaurants available in the south part of the city . mexican , italian , indian , and two chinese restaurants are available . what type of food would you like ?
+38 mexican will be fine . could i have the address and phone please ?	chiquito_restaurant_bar is a mexican restaurant located in the south part of town in the expensive price range . their phone number is 01223_400170 and their address is 2g_cambridge_leisure_park_cherry_hinton_road_cherry_hinton .
+39 thank you . goodbye .	goodbye .
+
+1 hi . i 'm looking for a moderately priced restaurant .	api_call dontcare dontcare moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 curry_prince R_address 451_newmarket_road_fen_ditton
+17 curry_prince R_area east
+18 curry_prince R_food indian
+19 curry_prince R_location 52.213072,0.149771
+20 curry_prince R_phone 01223_566388
+21 curry_prince R_pricerange moderate
+22 curry_prince R_postcode cb58jj
+23 pizza_express R_address regent_street_city_centre
+24 pizza_express R_area centre
+25 pizza_express R_food italian
+26 pizza_express R_location 52.201743,0.124843
+27 pizza_express R_phone 01223_324033
+28 pizza_express R_pricerange moderate
+29 pizza_express R_postcode cb21db
+30 restaurant_one_seven R_address de_vere_university_arms_regent_street_city_centre
+31 restaurant_one_seven R_area centre
+32 restaurant_one_seven R_food british
+33 restaurant_one_seven R_location 52.20103,0.126023
+34 restaurant_one_seven R_phone 01223_337766
+35 restaurant_one_seven R_pricerange moderate
+36 restaurant_one_seven R_postcode cb21ab
+37 jinling_noodle_bar R_address 11_peas_hill_city_centre
+38 jinling_noodle_bar R_area centre
+39 jinling_noodle_bar R_food chinese
+40 jinling_noodle_bar R_location 52.204453,0.118693
+41 jinling_noodle_bar R_phone 01223_566188
+42 jinling_noodle_bar R_pricerange moderate
+43 jinling_noodle_bar R_postcode cb23pp
+44 de_luca_cucina_and_bar R_address 83_regent_street
+45 de_luca_cucina_and_bar R_area centre
+46 de_luca_cucina_and_bar R_food modern_european
+47 de_luca_cucina_and_bar R_location 52.2002,0.1268
+48 de_luca_cucina_and_bar R_phone 01223_356666
+49 de_luca_cucina_and_bar R_pricerange moderate
+50 de_luca_cucina_and_bar R_postcode cb21aw
+51 riverside_brasserie R_address doubletree_by_hilton_cambridge_granta_place_mill_lane
+52 riverside_brasserie R_area centre
+53 riverside_brasserie R_food modern_european
+54 riverside_brasserie R_location 52.20025,0.11659
+55 riverside_brasserie R_phone 01223_259988
+56 riverside_brasserie R_pricerange moderate
+57 riverside_brasserie R_postcode cb21rt
+58 prezzo R_address 21_-_24_northampton_road
+59 prezzo R_area west
+60 prezzo R_food italian
+61 prezzo R_location 52.21032,0.11367
+62 prezzo R_phone 01799_521260
+63 prezzo R_pricerange moderate
+64 prezzo R_postcode cb30ad
+65 ali_baba R_address 59_hills_road_city_centre
+66 ali_baba R_area centre
+67 ali_baba R_food lebanese
+68 ali_baba R_location 52.195416,0.13114
+69 ali_baba R_phone 01462_432565
+70 ali_baba R_pricerange moderate
+71 ali_baba R_postcode cb21nt
+72 the_varsity_restaurant R_address 35_saint_andrews_street_city_centre
+73 the_varsity_restaurant R_area centre
+74 the_varsity_restaurant R_food international
+75 the_varsity_restaurant R_location 52.202793,0.123488
+76 the_varsity_restaurant R_phone 01223_356060
+77 the_varsity_restaurant R_pricerange moderate
+78 the_varsity_restaurant R_postcode cb23ar
+79 hotel_du_vin_and_bistro R_address 15_-_19_trumpington_street
+80 hotel_du_vin_and_bistro R_area centre
+81 hotel_du_vin_and_bistro R_food european
+82 hotel_du_vin_and_bistro R_location 52.19934,0.12146
+83 hotel_du_vin_and_bistro R_phone 01223_227330
+84 hotel_du_vin_and_bistro R_pricerange moderate
+85 hotel_du_vin_and_bistro R_postcode cb21qa
+86 bloomsbury_restaurant R_address crowne_plaza_hotel_20_downing_street
+87 bloomsbury_restaurant R_area centre
+88 bloomsbury_restaurant R_food international
+89 bloomsbury_restaurant R_location 52.20342,0.12171
+90 bloomsbury_restaurant R_phone 0871_942_9180
+91 bloomsbury_restaurant R_pricerange moderate
+92 bloomsbury_restaurant R_postcode cb23dt
+93 la_tasca R_address 14_-16_bridge_street
+94 la_tasca R_area centre
+95 la_tasca R_food spanish
+96 la_tasca R_location 52.20903,0.1183
+97 la_tasca R_phone 01223_464630
+98 la_tasca R_pricerange moderate
+99 la_tasca R_postcode cb21uf
+100 lan_hong_house R_address 12_norfolk_street_city_centre
+101 lan_hong_house R_area centre
+102 lan_hong_house R_food chinese
+103 lan_hong_house R_location 52.204609,0.137976
+104 lan_hong_house R_phone 01223_350420
+105 lan_hong_house R_pricerange moderate
+106 lan_hong_house R_postcode cb12lf
+107 the_oak_bistro R_address 6_lensfield_road
+108 the_oak_bistro R_area centre
+109 the_oak_bistro R_food british
+110 the_oak_bistro R_location 52.1987,0.12578
+111 the_oak_bistro R_phone 01223_323361
+112 the_oak_bistro R_pricerange moderate
+113 the_oak_bistro R_postcode cb21eg
+114 the_copper_kettle R_address 4_kings_parade_city_centre
+115 the_copper_kettle R_area centre
+116 the_copper_kettle R_food british
+117 the_copper_kettle R_location 52.204387,0.117841
+118 the_copper_kettle R_phone 01223_365068
+119 the_copper_kettle R_pricerange moderate
+120 the_copper_kettle R_postcode cb21sj
+121 yippee_noodle_bar R_address 40428_king_street_city_centre
+122 yippee_noodle_bar R_area centre
+123 yippee_noodle_bar R_food asian_oriental
+124 yippee_noodle_bar R_location 52.207446,0.122788
+125 yippee_noodle_bar R_phone 01223_518111
+126 yippee_noodle_bar R_pricerange moderate
+127 yippee_noodle_bar R_postcode cb11lh
+128 the_nirala R_address 7_milton_road_chesterton
+129 the_nirala R_area north
+130 the_nirala R_food indian
+131 the_nirala R_location 52.215157,0.125015
+132 the_nirala R_phone 01223_360966
+133 the_nirala R_pricerange moderate
+134 the_nirala R_postcode cb41uy
+135 cotto R_address 183_east_road_city_centre
+136 cotto R_area centre
+137 cotto R_food british
+138 cotto R_location 52.204703,0.133238
+139 cotto R_phone 01223_302010
+140 cotto R_pricerange moderate
+141 cotto R_postcode cb11bg
+142 saint_johns_chop_house R_address 21_-_24_northampton_street
+143 saint_johns_chop_house R_area west
+144 saint_johns_chop_house R_food british
+145 saint_johns_chop_house R_location 52.21031,0.11381
+146 saint_johns_chop_house R_phone 01223_353110
+147 saint_johns_chop_house R_pricerange moderate
+148 saint_johns_chop_house R_postcode cb30ad
+149 pizza_hut_fen_ditton R_address cambridge_retail_park_newmarket_road_fen_ditton
+150 pizza_hut_fen_ditton R_area east
+151 pizza_hut_fen_ditton R_food italian
+152 pizza_hut_fen_ditton R_location 52.209742,0.146975
+153 pizza_hut_fen_ditton R_phone 01223_323737
+154 pizza_hut_fen_ditton R_pricerange moderate
+155 pizza_hut_fen_ditton R_postcode cb58wr
+156 galleria R_address 33_bridge_street
+157 galleria R_area centre
+158 galleria R_food european
+159 galleria R_location 52.20951,0.11669
+160 galleria R_phone 01223_362054
+161 galleria R_pricerange moderate
+162 galleria R_postcode cb21uw
+163 the_cow_pizza_kitchen_and_bar R_address corn_exchange_street
+164 the_cow_pizza_kitchen_and_bar R_area centre
+165 the_cow_pizza_kitchen_and_bar R_food gastropub
+166 the_cow_pizza_kitchen_and_bar R_location 52.204424,0.12046
+167 the_cow_pizza_kitchen_and_bar R_phone 01223_308871
+168 the_cow_pizza_kitchen_and_bar R_pricerange moderate
+169 the_cow_pizza_kitchen_and_bar R_postcode cb23qf
+170 golden_wok R_address 191_histon_road_chesterton
+171 golden_wok R_area north
+172 golden_wok R_food chinese
+173 golden_wok R_location 52.220757,0.111564
+174 golden_wok R_phone 01223_350688
+175 golden_wok R_pricerange moderate
+176 golden_wok R_postcode cb43hl
+177 meghna R_address 205_victoria_road_chesterton
+178 meghna R_area west
+179 meghna R_food indian
+180 meghna R_location 52.215077,0.112421
+181 meghna R_phone 01223_727410
+182 meghna R_pricerange moderate
+183 meghna R_postcode cb43lf
+184 shanghai_family_restaurant R_address 39_burleigh_street_city_centre
+185 shanghai_family_restaurant R_area centre
+186 shanghai_family_restaurant R_food chinese
+187 shanghai_family_restaurant R_location 52.206111,0.132969
+188 shanghai_family_restaurant R_phone 01223_301761
+189 shanghai_family_restaurant R_pricerange moderate
+190 shanghai_family_restaurant R_postcode cb11dg
+191 pizza_express_fen_ditton R_address jesus_lane_fen_ditton
+192 pizza_express_fen_ditton R_area centre
+193 pizza_express_fen_ditton R_food italian
+194 pizza_express_fen_ditton R_location 52.208252,0.119957
+195 pizza_express_fen_ditton R_phone 01223_324033
+196 pizza_express_fen_ditton R_pricerange moderate
+197 pizza_express_fen_ditton R_postcode cb58ba
+198 anatolia R_address 30_bridge_street_city_centre
+199 anatolia R_area centre
+200 anatolia R_food turkish
+201 anatolia R_location 52.209632,0.117213
+202 anatolia R_phone 01223_362372
+203 anatolia R_pricerange moderate
+204 anatolia R_postcode cb21uj
+205 rajmahal R_address 7_barnwell_road_fen_ditton
+206 rajmahal R_area east
+207 rajmahal R_food indian
+208 rajmahal R_location 52.211144,0.163247
+209 rajmahal R_phone 01223_244955
+210 rajmahal R_pricerange moderate
+211 rajmahal R_postcode cb58rg
+212 efes_restaurant R_address king_street_city_centre
+213 efes_restaurant R_area centre
+214 efes_restaurant R_food turkish
+215 efes_restaurant R_location 52.207312,0.124201
+216 efes_restaurant R_phone 01223_500005
+217 efes_restaurant R_pricerange moderate
+218 efes_restaurant R_postcode cb11ln
+219 <SILENCE>	de_luca_cucina_and_bar is a modern_european restaurant in the centre
+220 i need something that 's in the east part of town .	curry_prince is moderately priced and located at 451_newmarket_road_fen_ditton 01223_566388 .
+221 what is the phone number ?	curry_prince 's phone number is 01223_566388 . is there anything else i can help you with today ?
+222 no thank you . that is all i needed . bye bye !	you 're welcome . have a good evening .
+
+1 i want a cheap restaurant in the east part of town . what is the address and postcode ?	api_call dontcare east cheap
+2 the_missing_sock R_address finders_corner_newmarket_road
+3 the_missing_sock R_area east
+4 the_missing_sock R_food international
+5 the_missing_sock R_location 52.21768,0.224907
+6 the_missing_sock R_phone 01223_812660
+7 the_missing_sock R_pricerange cheap
+8 the_missing_sock R_postcode cb259aq
+9 <SILENCE>	how about the_missing_sock ? they serve international food at finders_corner_newmarket_road , postal code cb259aq .
+10 thank you , goodbye .	woah , okay , bye .
+
+1 hello , i am looking for a restaurant that serves international food .	i 'm showing three restaurants that fit that description . are you interested in a particular area or price range ?
+2 no , any price range is fine . can you recommend one of the restaurants ?	api_call international dontcare dontcare
+3 the_missing_sock R_address finders_corner_newmarket_road
+4 the_missing_sock R_area east
+5 the_missing_sock R_food international
+6 the_missing_sock R_location 52.21768,0.224907
+7 the_missing_sock R_phone 01223_812660
+8 the_missing_sock R_pricerange cheap
+9 the_missing_sock R_postcode cb259aq
+10 the_varsity_restaurant R_address 35_saint_andrews_street_city_centre
+11 the_varsity_restaurant R_area centre
+12 the_varsity_restaurant R_food international
+13 the_varsity_restaurant R_location 52.202793,0.123488
+14 the_varsity_restaurant R_phone 01223_356060
+15 the_varsity_restaurant R_pricerange moderate
+16 the_varsity_restaurant R_postcode cb23ar
+17 bloomsbury_restaurant R_address crowne_plaza_hotel_20_downing_street
+18 bloomsbury_restaurant R_area centre
+19 bloomsbury_restaurant R_food international
+20 bloomsbury_restaurant R_location 52.20342,0.12171
+21 bloomsbury_restaurant R_phone 0871_942_9180
+22 bloomsbury_restaurant R_pricerange moderate
+23 bloomsbury_restaurant R_postcode cb23dt
+24 <SILENCE>	bloomsbury_restaurant is an international restaurant in the centre area .
+25 hmm , i do n't really like the food there . is there anything else ?	the_missing_sock is another restaurant there .
+26 can i get the address and phone number , please ?	the_missing_sock is located at finders_corner_newmarket_road and their phone number is 01223_812660 .
+27 thank you .	thank you .
+28 thank you	good bye .
+
+1 hi , i want a french restaurant in the expensive price range .	api_call french dontcare expensive
+2 restaurant_two_two R_address 22_chesterton_road_chesterton
+3 restaurant_two_two R_area north
+4 restaurant_two_two R_food french
+5 restaurant_two_two R_location 52.213742,0.1242
+6 restaurant_two_two R_phone 01223_351880
+7 restaurant_two_two R_pricerange expensive
+8 restaurant_two_two R_postcode cb43ax
+9 cote R_address bridge_street_city_centre
+10 cote R_area centre
+11 cote R_food french
+12 cote R_location 52.209028,0.118296
+13 cote R_phone 01223_311053
+14 cote R_pricerange expensive
+15 cote R_postcode cb21uf
+16 <SILENCE>	cote is a french restaurant in the city centre and is in the expensive price range .
+17 could you please find me a different restaurant ?	another option is restaurant_two_two . would you like more information on that restaurant ?
+18 what is the phone number and postcode ?	the phone is 01223_351880 and the postcode is cb43ax
+19 thank you goodbye .	enjoy your meal . goodbye .
+20 bye .	thank you and have a great day !
+
+1 i 'm looking for an expensive restaurant in the south .	hi ! we have mexican , italian , indian , and chinese restaurants that fit the bill . do you have any preferences ?
+2 i do n't have any preference .	api_call dontcare south expensive
+3 the_good_luck_chinese_food_takeaway R_address 82_cherry_hinton_road_cherry_hinton
+4 the_good_luck_chinese_food_takeaway R_area south
+5 the_good_luck_chinese_food_takeaway R_food chinese
+6 the_good_luck_chinese_food_takeaway R_location 52.188528,0.140627
+7 the_good_luck_chinese_food_takeaway R_phone 01223_244149
+8 the_good_luck_chinese_food_takeaway R_pricerange expensive
+9 the_good_luck_chinese_food_takeaway R_postcode cb17ag
+10 taj_tandoori R_address 64_cherry_hinton_road_cherry_hinton
+11 taj_tandoori R_area south
+12 taj_tandoori R_food indian
+13 taj_tandoori R_location 52.188747,0.138941
+14 taj_tandoori R_phone 01223_412299
+15 taj_tandoori R_pricerange expensive
+16 taj_tandoori R_postcode cb17aa
+17 chiquito_restaurant_bar R_address 2g_cambridge_leisure_park_cherry_hinton_road_cherry_hinton
+18 chiquito_restaurant_bar R_area south
+19 chiquito_restaurant_bar R_food mexican
+20 chiquito_restaurant_bar R_location 52.190176,0.13699
+21 chiquito_restaurant_bar R_phone 01223_400170
+22 chiquito_restaurant_bar R_pricerange expensive
+23 chiquito_restaurant_bar R_postcode cb17dy
+24 peking_restaurant R_address 10_homerton_street_city_centre
+25 peking_restaurant R_area south
+26 peking_restaurant R_food chinese
+27 peking_restaurant R_location 52.189484,0.135465
+28 peking_restaurant R_phone 01223_354755
+29 peking_restaurant R_pricerange expensive
+30 peking_restaurant R_postcode cb28nx
+31 frankie_and_bennys R_address cambridge_leisure_park_clifton_way_cherry_hinton
+32 frankie_and_bennys R_area south
+33 frankie_and_bennys R_food italian
+34 frankie_and_bennys R_location 52.190176,0.13699
+35 frankie_and_bennys R_phone 01223_412430
+36 frankie_and_bennys R_pricerange expensive
+37 frankie_and_bennys R_postcode cb17dy
+38 <SILENCE>	chiquito_restaurant_bar is located in the south part of town and in the expensive price range .
+39 do you have a phone number for them ?	the number is 01223_400170 .
+40 have a good evening .	have a good evening .
+
+1 hello . can you help me find the address of an inexpensive restaurant in the south part of town ?	api_call dontcare south cheap
+2 nandos R_address cambridge_leisure_park_clifton_way
+3 nandos R_area south
+4 nandos R_food portuguese
+5 nandos R_location 52.19017,0.13699
+6 nandos R_phone 01223_327908
+7 nandos R_pricerange cheap
+8 nandos R_postcode cb17dy
+9 the_lucky_star R_address cambridge_leisure_park_clifton_way_cherry_hinton
+10 the_lucky_star R_area south
+11 the_lucky_star R_food chinese
+12 the_lucky_star R_location 52.190176,0.13699
+13 the_lucky_star R_phone 01223_244277
+14 the_lucky_star R_pricerange cheap
+15 the_lucky_star R_postcode cb17dy
+16 <SILENCE>	there are two restaurants that are in the cheap price range and in the south part of town . would you like portuguese or chinese food ?
+17 chinese food	the_lucky_star is chinese . would you like the phone number ?
+18 no , just the address please	the_lucky_star is located at cambridge_leisure_park_clifton_way cherry hinton .
+19 thank you , goodbye .	goodbye and enjoy your meal !
+
+1 i need the address and postcode of a cheap restaurant on the north side of town .	api_call dontcare north cheap
+2 da_vinci_pizzeria R_address 20_milton_road_chesterton
+3 da_vinci_pizzeria R_area north
+4 da_vinci_pizzeria R_food italian
+5 da_vinci_pizzeria R_location 52.215311,0.12593
+6 da_vinci_pizzeria R_phone 01223_351707
+7 da_vinci_pizzeria R_pricerange cheap
+8 da_vinci_pizzeria R_postcode cb41jy
+9 royal_spice R_address victoria_avenue_chesterton
+10 royal_spice R_area north
+11 royal_spice R_food indian
+12 royal_spice R_location 52.213853,0.125509
+13 royal_spice R_phone 01733_553355
+14 royal_spice R_pricerange cheap
+15 royal_spice R_postcode cb41eh
+16 <SILENCE>	the address for royal_spice is victoria_avenue_chesterton and the post code is cb41eh . royal_spice is in the cheap price range and is in the north part of town .
+17 than you .	thank you . goodbye .
+
+1 i want to find a cheap restaurant in the east part of town . what is the address and postcode ?	api_call dontcare east cheap
+2 the_missing_sock R_address finders_corner_newmarket_road
+3 the_missing_sock R_area east
+4 the_missing_sock R_food international
+5 the_missing_sock R_location 52.21768,0.224907
+6 the_missing_sock R_phone 01223_812660
+7 the_missing_sock R_pricerange cheap
+8 the_missing_sock R_postcode cb259aq
+9 <SILENCE>	the_missing_sock fits your criteria . it is on finders_corner_newmarket_road , postode iscb259aq
+10 thank you , goodbye .	thank you .
+
+1 i would like a moderately priced restaurant in the south part of town	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	i have two restaurants . they are pizza_hut_cherry_hinton and restaurant_alimentum .
+17 what type of food do each of them serve ?	pizza_hut_cherry_hinton is italian , and restaurant_alimentum is modern_european . would you like information on either of them ?
+18 yes , what is the address and phone number for pizza_hut_cherry_hinton ?	the address for pizza_hut_cherry_hinton is g4_cambridge_leisure_park_clifton_way_cherry_hinton and the phone number is 01223_323737
+19 what type of food do they serve ?	they serve italian food . can i help you with anything else ?
+20 thank you goodbye .	goodbye
+21 goodbye again .	goodbye .
+
+1 hi , i 'm looking for a moderately priced restaurant in the south part of town .	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	the pizza_hut_cherry_hinton is moderately priced and in the south part of town . would you like their location ?
+17 yes . i would like the location and the phone number , please .	the address of pizza_hut_cherry_hinton is g4_cambridge_leisure_park_clifton_way_cherry_hinton and the phone number is 01223_323737 .
+18 thank you goodbye .	thank you and good bye .
+
+1 i am looking for a thai restaurant - any area will do .	api_call thai dontcare dontcare
+2 sala_thong R_address 35_newnham_road_newnham
+3 sala_thong R_area west
+4 sala_thong R_food thai
+5 sala_thong R_location 52.199012,0.113196
+6 sala_thong R_phone 01223_323178
+7 sala_thong R_pricerange expensive
+8 sala_thong R_postcode cb39ey
+9 bangkok_city R_address 24_green_street_city_centre
+10 bangkok_city R_area centre
+11 bangkok_city R_food thai
+12 bangkok_city R_location 52.206504,0.119157
+13 bangkok_city R_phone 01223_354382
+14 bangkok_city R_pricerange expensive
+15 bangkok_city R_postcode cb23jx
+16 <SILENCE>	bangkok_city is an expensive thai restaurant in the centre of town .
+17 can i have its phone number and postcode ?	bangkok_city 's phone number is 01223_354382 and their postcode is cb23jx . can i help you with anything else ?
+18 that will be all , thank you . goodbye .	thank you for using this system , goodbye !
+
+1 i am looking for an expensive restaurant that serves welsh food .	i apologize , there are no restaurants in the expensive price range that serve welsh food . would you like a different type of food ?
+2 how about korean food ?	api_call korean dontcare expensive
+3 little_seoul R_address 108_regent_street_city_centre
+4 little_seoul R_area centre
+5 little_seoul R_food korean
+6 little_seoul R_location 52.200187,0.126407
+7 little_seoul R_phone 01223_308681
+8 little_seoul R_pricerange expensive
+9 little_seoul R_postcode cb21dp
+10 <SILENCE>	little_seoul is an expensive korean restaurant . is there anything else i can help you with ?
+11 yes , i would like their address and what part of town they are located in .	little_seoul is located in the centre of town and the address is 108 regent_street_city_centre .
+12 thank you , goodbye .	have a nice day ! goodbye .
+
+1 is there any place here in the centre that serves corsica food ?	what price range are you looking for ?
+2 any price range will do .	there are no restaurants available matching your criteria . would you like to try a different area , price range , or food type ?
+3 are there any restaurants in the centre that serves north american type of food ?	api_call north_american centre dontcare
+4 gourmet_burger_kitchen R_address regent_street_city_centre
+5 gourmet_burger_kitchen R_area centre
+6 gourmet_burger_kitchen R_food north_american
+7 gourmet_burger_kitchen R_location 52.20103,0.126023
+8 gourmet_burger_kitchen R_phone 01223_312598
+9 gourmet_burger_kitchen R_pricerange expensive
+10 gourmet_burger_kitchen R_postcode cb21ab
+11 <SILENCE>	yes . the gourmet_burger_kitchen serves north_american food and is located in the centre part of the city . would you like their location ?
+12 can i get the phone number ?	the phone number for gourmet_burger_kitchen is 01223_312598 .
+13 thank you . good bye .	thank you for using the cambridge restaurant system . goodbye .
+
+1 i 'm in the east part of town , and i 'd like to find a nearby scandinavian restaurant .	there are no venues selling scandinavian food in the east part of town .
+2 how about indian food . give me their address and phone number .	api_call indian east dontcare
+3 curry_prince R_address 451_newmarket_road_fen_ditton
+4 curry_prince R_area east
+5 curry_prince R_food indian
+6 curry_prince R_location 52.213072,0.149771
+7 curry_prince R_phone 01223_566388
+8 curry_prince R_pricerange moderate
+9 curry_prince R_postcode cb58jj
+10 pipasha_restaurant R_address newmarket_road_fen_ditton
+11 pipasha_restaurant R_area east
+12 pipasha_restaurant R_food indian
+13 pipasha_restaurant R_location 52.212992,0.157569
+14 pipasha_restaurant R_phone 01223_577786
+15 pipasha_restaurant R_pricerange expensive
+16 pipasha_restaurant R_postcode cb58pa
+17 rajmahal R_address 7_barnwell_road_fen_ditton
+18 rajmahal R_area east
+19 rajmahal R_food indian
+20 rajmahal R_location 52.211144,0.163247
+21 rajmahal R_phone 01223_244955
+22 rajmahal R_pricerange moderate
+23 rajmahal R_postcode cb58rg
+24 sitar_tandoori R_address 43_high_street_cherry_hinton_cherry_hinton
+25 sitar_tandoori R_area east
+26 sitar_tandoori R_food indian
+27 sitar_tandoori R_location 52.186739,0.173048
+28 sitar_tandoori R_phone 01223_249955
+29 sitar_tandoori R_pricerange expensive
+30 sitar_tandoori R_postcode cb19hx
+31 <SILENCE>	there are four restaurants in the east part of town serving indian food . what price range would you like ?
+32 it does n't matter	curry_prince is a moderately priced restaurant in the east of town that serves indian food .
+33 can i have the phone number please ?	curry_prince 's phone number is 01223_566388 . can i help you with anything else ?
+34 i need their address .	of course , it is located at 451_newmarket_road_fen_ditton , cb58jj
+35 thank you . goodbye .	you 're very welcome . thank you and have a good day . goodbye .
+
+1 hi , i 'm looking for good chinese food on the west side .	sorry , there is no chinese restaurant in the west side . do you want another type of food or different part of town ?
+2 thank you goodbye	you are welcome good bye
+
+1 can you recommend a good restaurant in the north part of town that serves australasian food ?	there are not restaurants matching your request . may i help you find a different restaurant ?
+2 how about indian food instead ?	there are two indian restaurants in the north part of town . what price range are you looking for ?
+3 what are the price ranges of the two available restaurants ?	api_call indian north dontcare
+4 the_nirala R_address 7_milton_road_chesterton
+5 the_nirala R_area north
+6 the_nirala R_food indian
+7 the_nirala R_location 52.215157,0.125015
+8 the_nirala R_phone 01223_360966
+9 the_nirala R_pricerange moderate
+10 the_nirala R_postcode cb41uy
+11 royal_spice R_address victoria_avenue_chesterton
+12 royal_spice R_area north
+13 royal_spice R_food indian
+14 royal_spice R_location 52.213853,0.125509
+15 royal_spice R_phone 01733_553355
+16 royal_spice R_pricerange cheap
+17 royal_spice R_postcode cb41eh
+18 <SILENCE>	one of them is cheap and the other is moderately price .
+19 tell me the address of the moderately priced one .	the_nirala is located at 7 milton street chesterton .
+20 what is the phone number ?	the phone number for the_nirala is 01223_360966 . is there anything else i can help you with ?
+21 no thank you , goodbye	you 're welcome . good bye .
+
+1 i am looking for a restaurant that is in the moderate price range and in the west part of town .	do you have a particular food type in mind today ?
+2 any type of food will be fine as long as it is moderately priced and in the west part of town .	api_call dontcare west moderate
+3 prezzo R_address 21_-_24_northampton_road
+4 prezzo R_area west
+5 prezzo R_food italian
+6 prezzo R_location 52.21032,0.11367
+7 prezzo R_phone 01799_521260
+8 prezzo R_pricerange moderate
+9 prezzo R_postcode cb30ad
+10 saint_johns_chop_house R_address 21_-_24_northampton_street
+11 saint_johns_chop_house R_area west
+12 saint_johns_chop_house R_food british
+13 saint_johns_chop_house R_location 52.21031,0.11381
+14 saint_johns_chop_house R_phone 01223_353110
+15 saint_johns_chop_house R_pricerange moderate
+16 saint_johns_chop_house R_postcode cb30ad
+17 meghna R_address 205_victoria_road_chesterton
+18 meghna R_area west
+19 meghna R_food indian
+20 meghna R_location 52.215077,0.112421
+21 meghna R_phone 01223_727410
+22 meghna R_pricerange moderate
+23 meghna R_postcode cb43lf
+24 <SILENCE>	meghna is an indian restaurant in the west part of town and is in the moderate price range .
+25 great , can i please have their address and postcode ?	meghna is at 205_victoria_road_chesterton , and the postal code is cb43lf . can i help you with anything else ?
+26 thank you good bye .	thank you good bye .
+
+1 hi , i 'm looking for a moderately priced restaurant on the south side of town .	api_call dontcare south moderate
+2 pizza_hut_cherry_hinton R_address g4_cambridge_leisure_park_clifton_way_cherry_hinton
+3 pizza_hut_cherry_hinton R_area south
+4 pizza_hut_cherry_hinton R_food italian
+5 pizza_hut_cherry_hinton R_location 52.190176,0.13699
+6 pizza_hut_cherry_hinton R_phone 01223_323737
+7 pizza_hut_cherry_hinton R_pricerange moderate
+8 pizza_hut_cherry_hinton R_postcode cb17dy
+9 restaurant_alimentum R_address 152_-_154_hills_road
+10 restaurant_alimentum R_area south
+11 restaurant_alimentum R_food modern_european
+12 restaurant_alimentum R_location 52.18889,0.13589
+13 restaurant_alimentum R_phone 01223_413000
+14 restaurant_alimentum R_pricerange moderate
+15 restaurant_alimentum R_postcode cb28pb
+16 <SILENCE>	pizza_hut_cherry_hinton is a moderately priced restaurant in the south area . would you like their information ?
+17 yes . phone number please	pizza_hut_cherry_hinton is phone number is 01223_323737 .
+18 i 'm not sure where on the south side i 'm going to be . could you suggest an alternate restaurant and give me their information , too ?	the only other option is restaurant_alimentum . their phone number is 01223_413000 , their address is 152_-_154_hills_road and their postcode is cb28pb .
+
+1 i want to find a restaurant in the centre part of town and serves persian food .	there are no restaurants serving persian food in the centre part of town .
+2 i would like a thai restaurant then .	i see several options for thai food in the city centre . would you like to narrow them down by price ?
+3 yes please . like to hear least to most expensive first .	api_call thai centre expensive
+4 bangkok_city R_address 24_green_street_city_centre
+5 bangkok_city R_area centre
+6 bangkok_city R_food thai
+7 bangkok_city R_location 52.206504,0.119157
+8 bangkok_city R_phone 01223_354382
+9 bangkok_city R_pricerange expensive
+10 bangkok_city R_postcode cb23jx
+11 <SILENCE>	bangkok_city is the only result and it is expensive .
+12 what is the address and phone number ?	the address for bangkok_city is 24 green street city centr , and the phone number is 01223_354382 . is there anything else i can help you with ?
+13 thank you , goodbye	have a nice day !
+
+1 hi , i 'm looking for a place with tuscan food in any price range .	i 'm sorry , there is not a tuscan restaurant listed . would you care to try something else ?
+2 how about any korean restaurants ?	api_call korean dontcare dontcare
+3 little_seoul R_address 108_regent_street_city_centre
+4 little_seoul R_area centre
+5 little_seoul R_food korean
+6 little_seoul R_location 52.200187,0.126407
+7 little_seoul R_phone 01223_308681
+8 little_seoul R_pricerange expensive
+9 little_seoul R_postcode cb21dp
+10 <SILENCE>	little_seoul is a korean restaurant .
+11 phone number please	there phone number is 01223308681 is there anything else i can help you with ?
+12 no . thank you , goodbye .	thank you . goodbye .
+
+1 i am looking for a cheap restaurant in the north part of town .	what food type are you looking for ?
+2 i do n't care what type of food it is .	api_call dontcare north cheap
+3 da_vinci_pizzeria R_address 20_milton_road_chesterton
+4 da_vinci_pizzeria R_area north
+5 da_vinci_pizzeria R_food italian
+6 da_vinci_pizzeria R_location 52.215311,0.12593
+7 da_vinci_pizzeria R_phone 01223_351707
+8 da_vinci_pizzeria R_pricerange cheap
+9 da_vinci_pizzeria R_postcode cb41jy
+10 royal_spice R_address victoria_avenue_chesterton
+11 royal_spice R_area north
+12 royal_spice R_food indian
+13 royal_spice R_location 52.213853,0.125509
+14 royal_spice R_phone 01733_553355
+15 royal_spice R_pricerange cheap
+16 royal_spice R_postcode cb41eh
+17 <SILENCE>	there is da_vinci_pizzeria and royal_spice , both are in the north area and in the cheap price range .
+18 what are their phone numbers ?	da_vinci_pizzeria is at 01223_351707 , and royal_spice is at 01733_553355 .
+19 thank you good bye .	thanks
+
+1 i 'm looking for a moderately priced polish food restaurant .	i 'm sorry , but there are n't any moderately priced polish restaurants . should i check other price ranges or a different type of food ?
+2 yes , can you please check for a turkish restaurant ?	api_call turkish dontcare moderate
+3 anatolia R_address 30_bridge_street_city_centre
+4 anatolia R_area centre
+5 anatolia R_food turkish
+6 anatolia R_location 52.209632,0.117213
+7 anatolia R_phone 01223_362372
+8 anatolia R_pricerange moderate
+9 anatolia R_postcode cb21uj
+10 efes_restaurant R_address king_street_city_centre
+11 efes_restaurant R_area centre
+12 efes_restaurant R_food turkish
+13 efes_restaurant R_location 52.207312,0.124201
+14 efes_restaurant R_phone 01223_500005
+15 efes_restaurant R_pricerange moderate
+16 efes_restaurant R_postcode cb11ln
+17 <SILENCE>	there are two results . anatolia restaurant and efes_restaurant both server turkish food in the moderate price range . is there anything else i can help you with ?
+18 may i have the address for anatolia ?	yes , the address for anatolia is 30_bridge_street_city_centre .
+19 thank you	thank you .
+
+1 hi can you help me find a restauant in the west side of the city ? >	what type of cuisine or price range would you prefer ?
+2 i dont care the type of cuisine but can you find me something in the west ?	api_call dontcare west dontcare
+3 tandoori_palace R_address 68_histon_road_chesterton
+4 tandoori_palace R_area west
+5 tandoori_palace R_food indian
+6 tandoori_palace R_location 52.215486,0.111167
+7 tandoori_palace R_phone 01223_506055
+8 tandoori_palace R_pricerange expensive
+9 tandoori_palace R_postcode cb43le
+10 prezzo R_address 21_-_24_northampton_road
+11 prezzo R_area west
+12 prezzo R_food italian
+13 prezzo R_location 52.21032,0.11367
+14 prezzo R_phone 01799_521260
+15 prezzo R_pricerange moderate
+16 prezzo R_postcode cb30ad
+17 cocum R_address 71_castle_street_city_centre
+18 cocum R_area west
+19 cocum R_food indian
+20 cocum R_location 52.212444,0.112823
+21 cocum R_phone 01223_366668
+22 cocum R_pricerange expensive
+23 cocum R_postcode cb30ah
+24 rice_boat R_address 37_newnham_road_newnham
+25 rice_boat R_area west
+26 rice_boat R_food indian
+27 rice_boat R_location 52.199012,0.113196
+28 rice_boat R_phone 01223_302800
+29 rice_boat R_pricerange expensive
+30 rice_boat R_postcode cb39ey
+31 maharajah_tandoori_restaurant R_address 41518_castle_street_city_centre
+32 maharajah_tandoori_restaurant R_area west
+33 maharajah_tandoori_restaurant R_food indian
+34 maharajah_tandoori_restaurant R_location 52.212444,0.112823
+35 maharajah_tandoori_restaurant R_phone 01223_358399
+36 maharajah_tandoori_restaurant R_pricerange expensive
+37 maharajah_tandoori_restaurant R_postcode cb30ah
+38 thanh_binh R_address 17_magdalene_street_city_centre
+39 thanh_binh R_area west
+40 thanh_binh R_food vietnamese
+41 thanh_binh R_location 52.210226,0.115646
+42 thanh_binh R_phone 01223_362456
+43 thanh_binh R_pricerange cheap
+44 thanh_binh R_postcode cb30af
+45 la_margherita R_address 15_magdalene_street_city_centre
+46 la_margherita R_area west
+47 la_margherita R_food italian
+48 la_margherita R_location 52.210226,0.115646
+49 la_margherita R_phone 01223_315232
+50 la_margherita R_pricerange cheap
+51 la_margherita R_postcode cb30af
+52 saint_johns_chop_house R_address 21_-_24_northampton_street
+53 saint_johns_chop_house R_area west
+54 saint_johns_chop_house R_food british
+55 saint_johns_chop_house R_location 52.21031,0.11381
+56 saint_johns_chop_house R_phone 01223_353110
+57 saint_johns_chop_house R_pricerange moderate
+58 saint_johns_chop_house R_postcode cb30ad
+59 meghna R_address 205_victoria_road_chesterton
+60 meghna R_area west
+61 meghna R_food indian
+62 meghna R_location 52.215077,0.112421
+63 meghna R_phone 01223_727410
+64 meghna R_pricerange moderate
+65 meghna R_postcode cb43lf
+66 sala_thong R_address 35_newnham_road_newnham
+67 sala_thong R_area west
+68 sala_thong R_food thai
+69 sala_thong R_location 52.199012,0.113196
+70 sala_thong R_phone 01223_323178
+71 sala_thong R_pricerange expensive
+72 sala_thong R_postcode cb39ey
+73 graffiti R_address hotel_felix_whitehouse_lane_huntingdon_road
+74 graffiti R_area west
+75 graffiti R_food british
+76 graffiti R_location 52.22414,0.09194
+77 graffiti R_phone 01223_277977
+78 graffiti R_pricerange expensive
+79 graffiti R_postcode cb30lx
+80 india_house R_address 31_newnham_road_newnham
+81 india_house R_area west
+82 india_house R_food indian
+83 india_house R_location 52.199012,0.113196
+84 india_house R_phone 01223_461661
+85 india_house R_pricerange expensive
+86 india_house R_postcode cb39ey
+87 cambridge_lodge_restaurant R_address cambridge_lodge_hotel_139_huntingdon_road_city_centre
+88 cambridge_lodge_restaurant R_area west
+89 cambridge_lodge_restaurant R_food european
+90 cambridge_lodge_restaurant R_location 52.217736,0.102505
+91 cambridge_lodge_restaurant R_phone 01223_355166
+92 cambridge_lodge_restaurant R_pricerange expensive
+93 cambridge_lodge_restaurant R_postcode cb30dq
+94 travellers_rest R_address huntingdon_road_city_centre
+95 travellers_rest R_area west
+96 travellers_rest R_food british
+97 travellers_rest R_location 52.214201,0.108588
+98 travellers_rest R_phone 01223_276182
+99 travellers_rest R_pricerange expensive
+100 travellers_rest R_postcode cb30df
+101 <SILENCE>	meghna is a nice indian restaurant in the west part of town .
+102 ok , and the phone number and address ?	the phone number for meghna is 01223_727410 and is located at 205_victoria_road_chesterton
+103 ok , thank you	you 're welcome . enjoy your meal !
+
+1 hello , i am looking for a venetian restaurant in the centre of town .	there are no restaurants serving venetian food in the centre part of town . would you like me to check another part of town ?
+2 how about thai food ?	what is the price range you are looking for ?
+3 i do n't care .	api_call thai centre dontcare
+4 bangkok_city R_address 24_green_street_city_centre
+5 bangkok_city R_area centre
+6 bangkok_city R_food thai
+7 bangkok_city R_location 52.206504,0.119157
+8 bangkok_city R_phone 01223_354382
+9 bangkok_city R_pricerange expensive
+10 bangkok_city R_postcode cb23jx
+11 <SILENCE>	bangkok_city serves thai food in the centre of town . would you like an additional information regarding this restaurant ?
+12 can i get the address and phone number , please ?	bangkok_city 's address is 24_green_street_city_centre and their phone number is 01223_354382
+13 thank you , goodbye	no , thank you ! enjoy !
+
+1 i want a cheap restaurant in the west part of town . what is the address and phone number ?	api_call dontcare west cheap
+2 thanh_binh R_address 17_magdalene_street_city_centre
+3 thanh_binh R_area west
+4 thanh_binh R_food vietnamese
+5 thanh_binh R_location 52.210226,0.115646
+6 thanh_binh R_phone 01223_362456
+7 thanh_binh R_pricerange cheap
+8 thanh_binh R_postcode cb30af
+9 la_margherita R_address 15_magdalene_street_city_centre
+10 la_margherita R_area west
+11 la_margherita R_food italian
+12 la_margherita R_location 52.210226,0.115646
+13 la_margherita R_phone 01223_315232
+14 la_margherita R_pricerange cheap
+15 la_margherita R_postcode cb30af
+16 <SILENCE>	i have found two that may work . first , la_margherita is at 15_magdalene_street_city_centre , phone is 01223_315232 . second one serves vietnamese at 17_magdalene_street_city_centre , number is 01223_362456
+17 is there anything else , if so give me their address and phone number .	those are the only listings in the west part of town . would you like to change your location or price range ?
+18 no thank you .	is there anything else i can help you with ?
+19 no , that 's fine . thank you !	thank you very much for using the cambridge restaurant system .
+
+1 i want portuguese food and i do n't care about the price range . what is the address and phone number ?	api_call portuguese dontcare dontcare
+2 nandos R_address cambridge_leisure_park_clifton_way
+3 nandos R_area south
+4 nandos R_food portuguese
+5 nandos R_location 52.19017,0.13699
+6 nandos R_phone 01223_327908
+7 nandos R_pricerange cheap
+8 nandos R_postcode cb17dy
+9 nandos_city_centre R_address 33-34_saint_andrews_street
+10 nandos_city_centre R_area centre
+11 nandos_city_centre R_food portuguese
+12 nandos_city_centre R_location 52.203,0.12375
+13 nandos_city_centre R_phone 01223_327908
+14 nandos_city_centre R_pricerange cheap
+15 nandos_city_centre R_postcode cb23ar
+16 <SILENCE>	nandos is a portuguese restaurant , it is in the cheap price range , and it is on the south side of town . the address is cambridge_leisure_park_clifton_way , and the phone number is 01223_327908 .
+17 thank you goodbye .	thank you for using our system . good bye
+
+1 i would like a moderately priced restaurant that serves lebanese food	api_call lebanese dontcare moderate
+2 ali_baba R_address 59_hills_road_city_centre
+3 ali_baba R_area centre
+4 ali_baba R_food lebanese
+5 ali_baba R_location 52.195416,0.13114
+6 ali_baba R_phone 01462_432565
+7 ali_baba R_pricerange moderate
+8 ali_baba R_postcode cb21nt
+9 <SILENCE>	there is the ali_baba at the city center , would you like to have the address ?
+10 what is the address and phone number ?	address is 59_hills_road_city_centre and phone number is 01462_432565
+11 thank you . goodbye !	thank you . good bye !
+
